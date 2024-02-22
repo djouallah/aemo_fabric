@@ -1,4 +1,4 @@
-A Full end to end solution using Fabric Lakehouse
+wordA Full end to end solution using Fabric Lakehouse
 
 1- create a lakehouse
 
@@ -6,7 +6,7 @@ A Full end to end solution using Fabric Lakehouse
 
 3-open a notebook, attached it to the Lakehouse
 
-4-Run the notebook in Orders just to have the initial load
+4-Run the notebook in sequence just to have the initial load
 
 Build your semantic Model in PowerBI when using Direct Lake
 
