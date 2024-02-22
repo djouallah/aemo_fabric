@@ -1,6 +1,8 @@
-wordA Full end to end solution using Fabric Lakehouse
+A Full end to end solution using Fabric Lakehouse
 
-1- create a lakehouse
+0- Create a Fabric Workspace
+
+1- Create a lakehouse
 
 2-Download the notebook from Github and import it to Fabric Workspace
 
