@@ -1,4 +1,4 @@
-a full end to end solution using Fabric Lakehouse
+A Full end to end solution using Fabric Lakehouse
 
 create a lakehouse
 
