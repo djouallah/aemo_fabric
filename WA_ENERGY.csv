@@ -1,0 +1,82 @@
+DUID,Participant Code,Participant Name,Technology
+NEWGEN_NEERABUP_GT1,NGENEERP,NewGen Neerabup Partnership,Natural Gas
+NEWGEN_KWINANA_CCG1,NEWGEN,NewGen Power Kwinana Pty Ltd,Natural Gas
+COLLIE_G1,WPGENER,Synergy,TBD
+COCKBURN_CCG1,WPGENER,Synergy,Natural Gas
+INVESTEC_COLLGAR_WF1,COLLGAR,Collgar Wind Farm,Wind
+BW1_BLUEWATERS_G2,GRIFFINP,Bluewaters Power 1 Pty Ltd,Water
+BW2_BLUEWATERS_G1,GRIFFIN2,Bluewaters Power 2 Pty Ltd,Water
+YANDIN_WF1,ALINTA,Alinta Sales Pty Ltd,Wind
+MUJA_G7,WPGENER,Synergy,TBD
+MUJA_G8,WPGENER,Synergy,TBD
+KWINANA_ESR1,WPGENER,Synergy,TBD
+ALINTA_WGP_GT,ALINTA,Alinta Sales Pty Ltd,Natural Gas
+ALINTA_WGP_U2,ALINTA,Alinta Sales Pty Ltd,TBD
+MUJA_G6,WPGENER,Synergy,TBD
+WARRADARGE_WF1,WARADGE,BEI WWF Pty Ltd ATF WWF Trust,Wind
+KEMERTON_GT11,WPGENER,Synergy,Natural Gas
+KEMERTON_GT12,WPGENER,Synergy,Natural Gas
+BADGINGARRA_WF1,ALINTA,Alinta Sales Pty Ltd,Wind
+ALINTA_PNJ_U1,ALINTA,Alinta Sales Pty Ltd,TBD
+ALINTA_PNJ_U2,ALINTA,Alinta Sales Pty Ltd,TBD
+PINJAR_GT11,WPGENER,Synergy,Natural Gas
+PINJAR_GT10,WPGENER,Synergy,Natural Gas
+PINJAR_GT9,WPGENER,Synergy,Natural Gas
+PERTHENERGY_KWINANA_GT1,WENERGY,Western Energy Pty Ltd,Natural Gas
+KWINANA_GT2,WPGENER,Synergy,Natural Gas
+KWINANA_GT3,WPGENER,Synergy,Natural Gas
+MERSOLAR_PV1,SUNAUST22,Merredin Project Company Pty Ltd ATF the Merredin,Solar
+ALINTA_WWF,ALINTA,Alinta Sales Pty Ltd,Wind
+NAMKKN_MERR_SG1,MERREDIN,Merredin Energy,TBD
+EDWFMAN_WF1,EDWFMAN,EDWF Manager Pty Ltd,Wind
+FLATROCKS_WF1,EGPA,Enel Energy Australia Pty Ltd,Wind
+PRK_AG,GLDFLDPW,Goldfields Power Pty Ltd,TBD
+MWF_MUMBIDA_WF1,MUMBIDA,Mumbida Wind Farm Pty Ltd,Wind
+WEST_KALGOORLIE_GT2,WPGENER,Synergy,Natural Gas
+TIWEST_COG1,TIWEST,Tronox Management Pty Ltd,TBD
+PINJAR_GT4,WPGENER,Synergy,Natural Gas
+PINJAR_GT5,WPGENER,Synergy,Natural Gas
+PINJAR_GT7,WPGENER,Synergy,Natural Gas
+PINJAR_GT3,WPGENER,Synergy,Natural Gas
+MUNGARRA_GT3,WPGENER,Synergy,Natural Gas
+MUNGARRA_GT1,WPGENER,Synergy,Natural Gas
+PINJAR_GT1,WPGENER,Synergy,Natural Gas
+PINJAR_GT2,WPGENER,Synergy,Natural Gas
+GREENOUGH_RIVER_PV1,GRENOUGH,SRV GRSF Pty Ltd as Trustee for GRSF Trust,Solar
+WEST_KALGOORLIE_GT3,WPGENER,Synergy,Natural Gas
+STHRNCRS_EG,STHRNCRS,Southern Cross Energy,TBD
+ALBANY_WF1,ALBGRAS,SRV AGWF Pty Ltd as trustee for AGWF Trust,Wind
+ALCOA_WGP,ALCOA,Alcoa of Australia Limited,TBD
+GRASMERE_WF1,ALBGRAS,SRV AGWF Pty Ltd as trustee for AGWF Trust,Wind
+TESLA_PICTON_G1,TSLA_MGT,Tesla Corporation Management Pty Ltd,TBD
+TESLA_GERALDTON_G1,TSLA_GER,Tesla Geraldton Pty Ltd,TBD
+TESLA_KEMERTON_G1,TSLA_KEM,Tesla Kemerton Pty Ltd,TBD
+TESLA_NORTHAM_G1,TSLA_NOR,Tesla Northam Pty Ltd,TBD
+NORTHAM_SF_PV1,MEGHP1,MEG HP1 Pty Ltd,Solar
+BLAIRFOX_BEROSRD_WF1,BLAIRFOX,Blair Fox Pty Ltd AFT The Blair Fox Trust,Wind
+TAMALA_PARK,LNDFLLGP,Landfill Gas and Power Pty Ltd,Natural Gas
+BLAIRFOX_KARAKIN_WF1,BLAIRFOX,Blair Fox Pty Ltd AFT The Blair Fox Trust,Wind
+BLAIRFOX_WESTHILLS_WF3,BLAIRFOX,Blair Fox Pty Ltd AFT The Blair Fox Trust,Wind
+ROCKINGHAM,PERTHNRGY,Perth Energy Pty Ltd,TBD
+SOUTH_CARDUP,PERTHNRGY,Perth Energy Pty Ltd,TBD
+RED_HILL,LNDFLLGP,Landfill Gas and Power Pty Ltd,Natural Gas
+HENDERSON_RENEWABLE_IG1,WGRES,Waste Gas Resources Pty Ltd,Natural Gas
+SKYFRM_MTBARKER_WF1,MBARKER,Mt.Barker Power Company Pty Ltd,Wind
+BIOGAS01,AMENERGY,Amanda Energy Pty Lt,TBD
+KALBARRI_WF1,WPGENER,Synergy,Wind
+DCWL_DENMARK_WF1,DCWL,Denmark Community Windfarm Ltd,Wind
+AMBRISOLAR_PV1,MPOWER,Metro Power Company Pty ltd,Solar
+BREMER_BAY_WF1,WPGENER,Synergy,Wind
+ALCOA_KW_IL,ALCOA,Alcoa of Australia Limited,TBD
+ALCOA_PNJ_IL,ALCOA,Alcoa of Australia Limited,TBD
+ALCOA_WGP_IL,ALCOA,Alcoa of Australia Limited,TBD
+GRIFFINP_DSP_01,GRIFFINP,Bluewaters Power 1 Pty Ltd,TBD
+NWNMTMN_FIM_INML1,NWMNTMN,Northern Star Power Pty Ltd,TBD
+WAPL_WORSLEY_IL1,PERTHNRGY,Perth Energy Pty Ltd,TBD
+SIMCOA_IPT_LD_01,SIMCOA,Simcoa Operations,TBD
+STHRNCRS_IL,STHRNCRS,Southern Cross Energy,TBD
+SYNERGY_DSP_04,WPGENER,Synergy,TBD
+SYNERGY_TOWN_OF_KAMBALDA,WPGENER,Synergy,TBD
+PREMPWR_DSP_02,PREMPWR,Wesfarmers Kleenheat Gas Pty Ltd,Natural Gas
+WP_DX_NTWK,WPNTWK,Western Power,TBD
+WP_TX_NTWK,WPNTWK,Western Power,TBD
