@@ -8,7 +8,7 @@ A Full end to end solution using Fabric Lakehouse
 
 3-open a notebook, attached it to the Lakehouse
 
-4-Run the notebook in sequence just to have the initial load
+4-Run the notebook in sequence just to have the initial load ( you may want to change Nbr_Files_to_Download to a bigger numbers, the data source for 5 minutes is kept only for two days, the 24 hours is only for 2 Months, I have the 5 years worth of data but I don't know how to share it with a minimum cost)
 
 Build your semantic Model in PowerBI when using Direct Lake
 
