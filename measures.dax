@@ -1,9 +1,0 @@
-Price_AVG = CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=1 ),filter('calendar', 'calendar'[date]<TODAY())) +
-    CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>=TODAY()))
-
-Mw = var var_max=TODAY()
-RETURN
-CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=1 ),filter('calendar', 'calendar'[date]< var_max)) +
-CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>= var_max))
-
-Mwh = [Mw]/12
