@@ -4033,7 +4033,7 @@
             "kind": "m",
             "expression": [
               "let",
-              "    database = Sql.Database(\"2ddwq77iortevbfx7it6gysrxa-ata6jjo3vkeeplzboz4bgyociu.datawarehouse.fabric.microsoft.com\", \"6274340a-6213-470c-baa6-5d5febc9626a\")",
+              "    database = Sql.Database(\"2ddwq77iortevbfx7it6gysrxa-ata6jjo3vkeeplzboz4bgyociu.datawarehouse.fabric.microsoft.com\", \"c73a2e45-932e-4602-a71e-f1ce498a5c9e\")",
               "in",
               "    database"
             ],
