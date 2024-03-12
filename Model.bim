@@ -1,0 +1,4057 @@
+{
+  "name": "aemo",
+  "id": "3b077859-b427-41b1-af37-dc2a82fd4626",
+  "compatibilityLevel": 1604,
+  "model": {
+    "culture": "en-US",
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "directLakeBehavior": "directLakeOnly",
+    "tables": [
+      {
+        "name": "scada",
+        "lineageTag": "2cdcb997-98c9-4b55-991f-85e74e620c25",
+        "sourceLineageTag": "[dbo].[scada]",
+        "columns": [
+          {
+            "name": "UNIT",
+            "dataType": "string",
+            "sourceColumn": "UNIT",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "ddd04e6d-084a-400c-a7cc-3ac4346dcf77",
+            "sourceLineageTag": "UNIT",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "VERSION",
+            "dataType": "double",
+            "sourceColumn": "VERSION",
+            "sourceProviderType": "float",
+            "lineageTag": "1da317be-8fed-43f2-b2d1-4a1ec637edb1",
+            "sourceLineageTag": "VERSION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SETTLEMENTDATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "lineageTag": "b9749c44-f58c-4076-a79c-f04444a47f0a",
+            "sourceLineageTag": "SETTLEMENTDATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "RUNNO",
+            "dataType": "double",
+            "sourceColumn": "RUNNO",
+            "sourceProviderType": "float",
+            "lineageTag": "6ad1b07d-2f9b-49e9-ae9e-024239518fd4",
+            "sourceLineageTag": "RUNNO",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DUID",
+            "dataType": "string",
+            "sourceColumn": "DUID",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "d2dfc2d4-b48c-4878-a78b-ce44a0facb92",
+            "sourceLineageTag": "DUID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "INTERVENTION",
+            "dataType": "double",
+            "sourceColumn": "INTERVENTION",
+            "sourceProviderType": "float",
+            "lineageTag": "6fe241aa-7b6b-4440-b1be-91c651c2e449",
+            "sourceLineageTag": "INTERVENTION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DISPATCHMODE",
+            "dataType": "double",
+            "sourceColumn": "DISPATCHMODE",
+            "sourceProviderType": "float",
+            "lineageTag": "1efe0b48-a784-4dbc-9d04-62cf8f21ab9a",
+            "sourceLineageTag": "DISPATCHMODE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "AGCSTATUS",
+            "dataType": "double",
+            "sourceColumn": "AGCSTATUS",
+            "sourceProviderType": "float",
+            "lineageTag": "eae8e43c-da12-4ab3-b424-36e7fbe344f7",
+            "sourceLineageTag": "AGCSTATUS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "INITIALMW",
+            "dataType": "double",
+            "sourceColumn": "INITIALMW",
+            "sourceProviderType": "float",
+            "lineageTag": "a7d8bade-50d4-4b0b-97bb-cd99b7a11843",
+            "sourceLineageTag": "INITIALMW",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTALCLEARED",
+            "dataType": "double",
+            "sourceColumn": "TOTALCLEARED",
+            "sourceProviderType": "float",
+            "lineageTag": "faca2d54-f1bf-45d4-8ec4-0eb0ba3df7b1",
+            "sourceLineageTag": "TOTALCLEARED",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAMPDOWNRATE",
+            "dataType": "double",
+            "sourceColumn": "RAMPDOWNRATE",
+            "sourceProviderType": "float",
+            "lineageTag": "6605d7b9-4f5c-48ba-b738-34f1bd11aad5",
+            "sourceLineageTag": "RAMPDOWNRATE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAMPUPRATE",
+            "dataType": "double",
+            "sourceColumn": "RAMPUPRATE",
+            "sourceProviderType": "float",
+            "lineageTag": "849bcda6-4493-4dfe-997b-8f3b8432002a",
+            "sourceLineageTag": "RAMPUPRATE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MIN",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MIN",
+            "sourceProviderType": "float",
+            "lineageTag": "451fc078-4ef5-4fc4-bfa1-d94282b104db",
+            "sourceLineageTag": "LOWER5MIN",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SEC",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SEC",
+            "sourceProviderType": "float",
+            "lineageTag": "c629bbad-c7c0-44cb-9be5-e39d79bf399d",
+            "sourceLineageTag": "LOWER60SEC",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SEC",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SEC",
+            "sourceProviderType": "float",
+            "lineageTag": "5d875b01-ee2d-47b8-9329-c3015bf65758",
+            "sourceLineageTag": "LOWER6SEC",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MIN",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MIN",
+            "sourceProviderType": "float",
+            "lineageTag": "0d0b2165-244e-4c1f-b38b-b1e7ae58ae24",
+            "sourceLineageTag": "RAISE5MIN",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SEC",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SEC",
+            "sourceProviderType": "float",
+            "lineageTag": "310563a9-8f1a-425e-b486-66640a3cc1b7",
+            "sourceLineageTag": "RAISE60SEC",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SEC",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SEC",
+            "sourceProviderType": "float",
+            "lineageTag": "c9d56b3c-b28d-4288-9d12-e7f5c8a4c314",
+            "sourceLineageTag": "RAISE6SEC",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "MARGINAL5MINVALUE",
+            "dataType": "double",
+            "sourceColumn": "MARGINAL5MINVALUE",
+            "sourceProviderType": "float",
+            "lineageTag": "9f686dfb-ee3d-4da0-9a05-84305ccc00d5",
+            "sourceLineageTag": "MARGINAL5MINVALUE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "MARGINAL60SECVALUE",
+            "dataType": "double",
+            "sourceColumn": "MARGINAL60SECVALUE",
+            "sourceProviderType": "float",
+            "lineageTag": "f756540c-41d9-48a9-afa0-476f18a7d57b",
+            "sourceLineageTag": "MARGINAL60SECVALUE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "MARGINAL6SECVALUE",
+            "dataType": "double",
+            "sourceColumn": "MARGINAL6SECVALUE",
+            "sourceProviderType": "float",
+            "lineageTag": "79ac3d21-f050-4e76-b933-3d8bbbf8c679",
+            "sourceLineageTag": "MARGINAL6SECVALUE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "MARGINALVALUE",
+            "dataType": "double",
+            "sourceColumn": "MARGINALVALUE",
+            "sourceProviderType": "float",
+            "lineageTag": "8fab4374-b70e-48f2-9088-a3033e043f78",
+            "sourceLineageTag": "MARGINALVALUE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VIOLATION5MINDEGREE",
+            "dataType": "double",
+            "sourceColumn": "VIOLATION5MINDEGREE",
+            "sourceProviderType": "float",
+            "lineageTag": "d9f0d387-d597-41e7-afbb-e16429fa05dd",
+            "sourceLineageTag": "VIOLATION5MINDEGREE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VIOLATION60SECDEGREE",
+            "dataType": "double",
+            "sourceColumn": "VIOLATION60SECDEGREE",
+            "sourceProviderType": "float",
+            "lineageTag": "d7bcdfe2-a62c-4e30-ba2d-0a48ecab14f0",
+            "sourceLineageTag": "VIOLATION60SECDEGREE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VIOLATION6SECDEGREE",
+            "dataType": "double",
+            "sourceColumn": "VIOLATION6SECDEGREE",
+            "sourceProviderType": "float",
+            "lineageTag": "40b47d00-e87c-4ab7-ad96-25ebeeecf238",
+            "sourceLineageTag": "VIOLATION6SECDEGREE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VIOLATIONDEGREE",
+            "dataType": "double",
+            "sourceColumn": "VIOLATIONDEGREE",
+            "sourceProviderType": "float",
+            "lineageTag": "10b74149-1c3d-4e87-9bc6-fd6952806eae",
+            "sourceLineageTag": "VIOLATIONDEGREE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREG",
+            "dataType": "double",
+            "sourceColumn": "LOWERREG",
+            "sourceProviderType": "float",
+            "lineageTag": "1c879d99-2821-48bd-9dc7-3fcf36d9b774",
+            "sourceLineageTag": "LOWERREG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREG",
+            "dataType": "double",
+            "sourceColumn": "RAISEREG",
+            "sourceProviderType": "float",
+            "lineageTag": "6159439b-eb45-4193-b362-da499547e263",
+            "sourceLineageTag": "RAISEREG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "AVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "AVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "2ca7b2eb-6ed9-49f9-804f-c951dd083a37",
+            "sourceLineageTag": "AVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECFLAGS",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "395c01b4-6c08-4506-b821-49048b1312be",
+            "sourceLineageTag": "RAISE6SECFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECFLAGS",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "c489adb5-48af-4b51-bd82-a961a930eda7",
+            "sourceLineageTag": "RAISE60SECFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINFLAGS",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "83e63428-f852-4b07-8d6d-0ec2c301d3e3",
+            "sourceLineageTag": "RAISE5MINFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGFLAGS",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "83bb3f19-6e00-467b-8eff-4a1830a4df8d",
+            "sourceLineageTag": "RAISEREGFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECFLAGS",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "f01fc8c4-8985-451b-abc5-8ab1216e233a",
+            "sourceLineageTag": "LOWER6SECFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECFLAGS",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "9a0c09fd-a87d-4f16-b27c-ed846457258c",
+            "sourceLineageTag": "LOWER60SECFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINFLAGS",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "ef0041f4-dda2-4932-b7d3-e9d6d4424023",
+            "sourceLineageTag": "LOWER5MINFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGFLAGS",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGFLAGS",
+            "sourceProviderType": "float",
+            "lineageTag": "0738ee48-7cbe-4ef6-80fd-e3705f7904a9",
+            "sourceLineageTag": "LOWERREGFLAGS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "2951cb5f-de6c-472c-87fb-71b6877a6b58",
+            "sourceLineageTag": "RAISEREGAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGENABLEMENTMAX",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGENABLEMENTMAX",
+            "sourceProviderType": "float",
+            "lineageTag": "2ed95e1e-3f19-42e8-8064-9b326e13b5ba",
+            "sourceLineageTag": "RAISEREGENABLEMENTMAX",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGENABLEMENTMIN",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGENABLEMENTMIN",
+            "sourceProviderType": "float",
+            "lineageTag": "46145545-d674-4301-9fea-ef4efd213abe",
+            "sourceLineageTag": "RAISEREGENABLEMENTMIN",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "38bc1069-80be-49fc-9459-375b6ed6413e",
+            "sourceLineageTag": "LOWERREGAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGENABLEMENTMAX",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGENABLEMENTMAX",
+            "sourceProviderType": "float",
+            "lineageTag": "71acbbc3-bcad-4219-83a9-1a7c3b43a222",
+            "sourceLineageTag": "LOWERREGENABLEMENTMAX",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGENABLEMENTMIN",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGENABLEMENTMIN",
+            "sourceProviderType": "float",
+            "lineageTag": "3fb20605-261b-4d60-815d-9d9234fde7de",
+            "sourceLineageTag": "LOWERREGENABLEMENTMIN",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "7c38564e-f229-4a2b-ad26-11b715c025a4",
+            "sourceLineageTag": "RAISE6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "4b0891bc-dabc-4c64-b8c4-228bcb807c3b",
+            "sourceLineageTag": "RAISE60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "71141013-f936-4810-a815-db15105477cf",
+            "sourceLineageTag": "RAISE5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "aa2f5e6b-1246-475e-97d6-93aa316d4c53",
+            "sourceLineageTag": "RAISEREGACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "b8a08776-ed8f-4789-852c-b40643bd2180",
+            "sourceLineageTag": "LOWER6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "2d86d3f2-c263-4e6c-81ed-ddcb7efd6255",
+            "sourceLineageTag": "LOWER60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "9ec811ff-cee2-4446-86d9-f73fd6e49ef9",
+            "sourceLineageTag": "LOWER5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "e37aa4f4-272f-424b-8b26-43b15705f805",
+            "sourceLineageTag": "LOWERREGACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "transactionId",
+            "dataType": "string",
+            "sourceColumn": "transactionId",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "28322c49-033e-40e8-b530-357624e9ccd3",
+            "sourceLineageTag": "transactionId",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "file",
+            "dataType": "string",
+            "sourceColumn": "file",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "8e524579-af25-46dc-9b25-4c9273cd1e7e",
+            "sourceLineageTag": "file",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PRIORITY",
+            "dataType": "int64",
+            "sourceColumn": "PRIORITY",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "lineageTag": "11333ea1-10c2-4222-95c9-470d5a0d36d5",
+            "sourceLineageTag": "PRIORITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "date",
+            "lineageTag": "79215d24-9b45-4cd9-bed8-f3300b941b16",
+            "sourceLineageTag": "DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "lineageTag": "8b748dfa-a146-4f44-b432-f72d8edee68d",
+            "sourceLineageTag": "year",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "scada",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "scada",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "price",
+        "lineageTag": "d0dfb188-b3a2-4490-a4d6-9b8edf2c3402",
+        "sourceLineageTag": "[dbo].[price]",
+        "columns": [
+          {
+            "name": "UNIT",
+            "dataType": "string",
+            "sourceColumn": "UNIT",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "3711a7ed-eb08-4186-822d-cad7fa16230a",
+            "sourceLineageTag": "UNIT",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "VERSION",
+            "dataType": "double",
+            "sourceColumn": "VERSION",
+            "sourceProviderType": "float",
+            "lineageTag": "7ba38005-36b5-4efd-9e95-a2b53358187c",
+            "sourceLineageTag": "VERSION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SETTLEMENTDATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "lineageTag": "efa48d95-656d-446c-91eb-fbea98decb8f",
+            "sourceLineageTag": "SETTLEMENTDATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "RUNNO",
+            "dataType": "double",
+            "sourceColumn": "RUNNO",
+            "sourceProviderType": "float",
+            "lineageTag": "c95cccf4-e863-46cb-8349-ae98ea330c7a",
+            "sourceLineageTag": "RUNNO",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "REGIONID",
+            "dataType": "string",
+            "sourceColumn": "REGIONID",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "63f8d958-6a75-46a8-9d06-91815057a921",
+            "sourceLineageTag": "REGIONID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "INTERVENTION",
+            "dataType": "double",
+            "sourceColumn": "INTERVENTION",
+            "sourceProviderType": "float",
+            "lineageTag": "396ab15c-3c7c-4555-bc54-667cb2e0b4b5",
+            "sourceLineageTag": "INTERVENTION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RRP",
+            "dataType": "double",
+            "sourceColumn": "RRP",
+            "sourceProviderType": "float",
+            "lineageTag": "7a74a155-78c4-4c16-aa3f-9a662685d372",
+            "sourceLineageTag": "RRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "EEP",
+            "dataType": "double",
+            "sourceColumn": "EEP",
+            "sourceProviderType": "float",
+            "lineageTag": "e2d02295-8779-4785-aa8b-0b244a3b76d6",
+            "sourceLineageTag": "EEP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "ROP",
+            "dataType": "double",
+            "sourceColumn": "ROP",
+            "sourceProviderType": "float",
+            "lineageTag": "906c5ab3-03dd-438f-a440-16fc9131c44f",
+            "sourceLineageTag": "ROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "APCFLAG",
+            "dataType": "double",
+            "sourceColumn": "APCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "b83bbeff-eec2-4b72-8b71-3a51e255e771",
+            "sourceLineageTag": "APCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "MARKETSUSPENDEDFLAG",
+            "dataType": "double",
+            "sourceColumn": "MARKETSUSPENDEDFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "04f12945-26fa-4692-9085-42e287ebbd1f",
+            "sourceLineageTag": "MARKETSUSPENDEDFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTALDEMAND",
+            "dataType": "double",
+            "sourceColumn": "TOTALDEMAND",
+            "sourceProviderType": "float",
+            "lineageTag": "30d62b9b-46c7-46cd-8744-0b191c22690e",
+            "sourceLineageTag": "TOTALDEMAND",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DEMANDFORECAST",
+            "dataType": "double",
+            "sourceColumn": "DEMANDFORECAST",
+            "sourceProviderType": "float",
+            "lineageTag": "63177f43-c9c4-4fd5-8b6b-999241862da8",
+            "sourceLineageTag": "DEMANDFORECAST",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DISPATCHABLEGENERATION",
+            "dataType": "double",
+            "sourceColumn": "DISPATCHABLEGENERATION",
+            "sourceProviderType": "float",
+            "lineageTag": "1dfebd81-f37c-4652-95dd-a9e4658fd395",
+            "sourceLineageTag": "DISPATCHABLEGENERATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DISPATCHABLELOAD",
+            "dataType": "double",
+            "sourceColumn": "DISPATCHABLELOAD",
+            "sourceProviderType": "float",
+            "lineageTag": "87064e7f-99e4-4599-9a71-d1ba83bf3fe7",
+            "sourceLineageTag": "DISPATCHABLELOAD",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "NETINTERCHANGE",
+            "dataType": "double",
+            "sourceColumn": "NETINTERCHANGE",
+            "sourceProviderType": "float",
+            "lineageTag": "a9814267-992b-455a-92a7-09484a5c994e",
+            "sourceLineageTag": "NETINTERCHANGE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "EXCESSGENERATION",
+            "dataType": "double",
+            "sourceColumn": "EXCESSGENERATION",
+            "sourceProviderType": "float",
+            "lineageTag": "1064ff51-6ca9-4eb2-a1e1-497dc4a57992",
+            "sourceLineageTag": "EXCESSGENERATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "aa5b28de-e9d6-45d5-8f08-bf3b3fefc01e",
+            "sourceLineageTag": "LOWER5MINDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINIMPORT",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "9cc7d1a5-a162-41e2-898f-d3290e230ebb",
+            "sourceLineageTag": "LOWER5MINIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "f04225da-54b0-4f6f-8e47-eba1dcea6aa5",
+            "sourceLineageTag": "LOWER5MINLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "e8a0a847-126b-4a20-a06b-0b7150ff0958",
+            "sourceLineageTag": "LOWER5MINLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "1d81de5f-28de-4e74-83ab-fca3a8f019d7",
+            "sourceLineageTag": "LOWER5MINLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "02f870f4-d640-4d33-bcad-609cdbc89867",
+            "sourceLineageTag": "LOWER5MINPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "4119f88a-8f63-4ea5-aea3-b9d882392418",
+            "sourceLineageTag": "LOWER5MINREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "9a5a8c7d-d862-4b7f-ae11-07419f635ac4",
+            "sourceLineageTag": "LOWER5MINSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "d9005129-a75d-48ef-a4fb-239bf4b5d6bb",
+            "sourceLineageTag": "LOWER60SECDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECIMPORT",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "b97888a2-2d79-429a-8ac0-0d6499111098",
+            "sourceLineageTag": "LOWER60SECIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "73f42813-57ac-4291-90f1-f4178d823e8d",
+            "sourceLineageTag": "LOWER60SECLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "b0c5dc4c-6e39-429e-8885-bc7daaeb17ed",
+            "sourceLineageTag": "LOWER60SECLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "c9e69396-e8bb-48ce-a20e-a7a52f9c26bb",
+            "sourceLineageTag": "LOWER60SECLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "781c4c5d-0073-4b02-abd4-aa62690b72b6",
+            "sourceLineageTag": "LOWER60SECPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "b15a2dd6-aaee-4b25-a3ae-c15399d46206",
+            "sourceLineageTag": "LOWER60SECREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "64733cad-8ce3-4395-9f0b-6be303db8b43",
+            "sourceLineageTag": "LOWER60SECSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "58c661a4-f9fc-472e-89e4-265c30ac6062",
+            "sourceLineageTag": "LOWER6SECDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECIMPORT",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "7c4213cc-68c4-4861-a55c-63eaeffe8fd4",
+            "sourceLineageTag": "LOWER6SECIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "ea1e0d71-d508-4c55-be15-1ce23e2dcf21",
+            "sourceLineageTag": "LOWER6SECLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "08395a59-b843-49f9-a156-04585520336a",
+            "sourceLineageTag": "LOWER6SECLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "79cb74d3-7f85-4a5c-9cda-d182c0783391",
+            "sourceLineageTag": "LOWER6SECLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "a3c98d9e-12f3-493b-a296-462d7ed31f19",
+            "sourceLineageTag": "LOWER6SECPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "848e90d8-0683-48c6-a45b-99ec855ee07f",
+            "sourceLineageTag": "LOWER6SECREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "0899c424-6531-4b67-9feb-f1ff6f8ffc32",
+            "sourceLineageTag": "LOWER6SECSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "69866e80-7363-4b36-a541-fd015d5b4260",
+            "sourceLineageTag": "RAISE5MINDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINIMPORT",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "70fdf413-8527-47dd-be52-ea18b0702ca6",
+            "sourceLineageTag": "RAISE5MINIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "004b5cb4-a179-4552-8a74-18f679d47a8f",
+            "sourceLineageTag": "RAISE5MINLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "44ed392d-065f-432b-ad52-e14800199a2b",
+            "sourceLineageTag": "RAISE5MINLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "39bcb8b7-4ccf-478e-9651-fb417006eaf9",
+            "sourceLineageTag": "RAISE5MINLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "4463cdae-840a-40fd-b508-35b6841eb3de",
+            "sourceLineageTag": "RAISE5MINPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "2659bf53-b8ae-4418-af24-24b33ce1b1ca",
+            "sourceLineageTag": "RAISE5MINREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "cbab06c8-226d-4518-81ff-c5b9ad455dd0",
+            "sourceLineageTag": "RAISE5MINSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "cb47437b-6141-4f7b-80dc-94a5b8118d39",
+            "sourceLineageTag": "RAISE60SECDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECIMPORT",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "8a1be35a-b850-460e-823b-090cd78f7de8",
+            "sourceLineageTag": "RAISE60SECIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "0f54ca7a-e77b-46cc-9eeb-2de13878ca4f",
+            "sourceLineageTag": "RAISE60SECLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "5a3fb28d-3e56-413b-91b8-28f13773a756",
+            "sourceLineageTag": "RAISE60SECLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "74097d02-0a36-45b6-ab5e-d0e7725fc953",
+            "sourceLineageTag": "RAISE60SECLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "7246c40d-372d-40de-ab9f-c4115246a153",
+            "sourceLineageTag": "RAISE60SECPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "1cdec37d-7f8e-4800-bb9f-8a92024839b1",
+            "sourceLineageTag": "RAISE60SECREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "b0b03475-702c-4e23-a3be-397457ae1e5d",
+            "sourceLineageTag": "RAISE60SECSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "086844f1-14d8-46d9-ab5f-a1ecf1c10a53",
+            "sourceLineageTag": "RAISE6SECDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECIMPORT",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "d990ab7d-0e15-4009-9c71-319121b8713a",
+            "sourceLineageTag": "RAISE6SECIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "dfe88c7f-82e5-4ec6-be9d-d71e58f7adc7",
+            "sourceLineageTag": "RAISE6SECLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECLOCALPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECLOCALPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "840b42c1-85ee-4c29-b5e1-d7183c7010b9",
+            "sourceLineageTag": "RAISE6SECLOCALPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "8163b245-1854-48cc-bbff-459b9c18ae75",
+            "sourceLineageTag": "RAISE6SECLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "aaf1ae71-775a-46f9-a93f-f9847ada805a",
+            "sourceLineageTag": "RAISE6SECPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "c462b53f-b6ac-472e-80c7-e5e42c09a544",
+            "sourceLineageTag": "RAISE6SECREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECSUPPLYPRICE",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECSUPPLYPRICE",
+            "sourceProviderType": "float",
+            "lineageTag": "795fa1d1-b242-444c-9ddc-d3a5e2b3a7e8",
+            "sourceLineageTag": "RAISE6SECSUPPLYPRICE",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "AGGREGATEDISPATCHERROR",
+            "dataType": "double",
+            "sourceColumn": "AGGREGATEDISPATCHERROR",
+            "sourceProviderType": "float",
+            "lineageTag": "d4cbc785-ea24-4851-9231-4e0c50ba38c6",
+            "sourceLineageTag": "AGGREGATEDISPATCHERROR",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "AVAILABLEGENERATION",
+            "dataType": "double",
+            "sourceColumn": "AVAILABLEGENERATION",
+            "sourceProviderType": "float",
+            "lineageTag": "491bfbba-787f-4787-9669-99cec5220091",
+            "sourceLineageTag": "AVAILABLEGENERATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "AVAILABLELOAD",
+            "dataType": "double",
+            "sourceColumn": "AVAILABLELOAD",
+            "sourceProviderType": "float",
+            "lineageTag": "6bf2aaf5-afd7-433f-b560-c395033c239b",
+            "sourceLineageTag": "AVAILABLELOAD",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "INITIALSUPPLY",
+            "dataType": "double",
+            "sourceColumn": "INITIALSUPPLY",
+            "sourceProviderType": "float",
+            "lineageTag": "bbbd1ae6-22cc-43fb-a65f-34740fd1065e",
+            "sourceLineageTag": "INITIALSUPPLY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "CLEAREDSUPPLY",
+            "dataType": "double",
+            "sourceColumn": "CLEAREDSUPPLY",
+            "sourceProviderType": "float",
+            "lineageTag": "de078993-2f93-41cc-b26a-0fbb717dbcc9",
+            "sourceLineageTag": "CLEAREDSUPPLY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGIMPORT",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "8e816cb7-2bfb-4a10-83e4-d71e59711b76",
+            "sourceLineageTag": "LOWERREGIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "31097c65-e2bd-4b58-bc87-7aec06254e48",
+            "sourceLineageTag": "LOWERREGLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "dc872905-091f-48d3-8638-d608f0c08e44",
+            "sourceLineageTag": "LOWERREGLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGREQ",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "cc2ad476-61d7-43b3-853a-ab7821aa3a41",
+            "sourceLineageTag": "LOWERREGREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGIMPORT",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGIMPORT",
+            "sourceProviderType": "float",
+            "lineageTag": "06e3fdcb-7c9b-4b81-bbf3-46b811287b36",
+            "sourceLineageTag": "RAISEREGIMPORT",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGLOCALDISPATCH",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGLOCALDISPATCH",
+            "sourceProviderType": "float",
+            "lineageTag": "4ad0039d-7265-496d-81af-b6026c362385",
+            "sourceLineageTag": "RAISEREGLOCALDISPATCH",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGLOCALREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGLOCALREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "1c610870-44da-4b48-9ffc-d1124dfd3088",
+            "sourceLineageTag": "RAISEREGLOCALREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGREQ",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGREQ",
+            "sourceProviderType": "float",
+            "lineageTag": "983fc993-b3e9-48e7-a664-7f0a30ffea2b",
+            "sourceLineageTag": "RAISEREGREQ",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "1e0c5d2e-66e9-4e38-beb3-feab6c85087b",
+            "sourceLineageTag": "RAISE5MINLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "6a42f7a2-a89c-4701-9e1f-ae137286352b",
+            "sourceLineageTag": "RAISEREGLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "603f0cdc-52be-4f57-bdc4-42ca3da11827",
+            "sourceLineageTag": "RAISE60SECLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "2ae24f1b-679e-4ceb-bb50-be629ba2f98c",
+            "sourceLineageTag": "RAISE6SECLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "91a7b995-17ad-4d3e-bfee-0cc4ea5d9029",
+            "sourceLineageTag": "LOWER5MINLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "311a8096-31d2-4f96-85b5-88aca9ef6dc8",
+            "sourceLineageTag": "LOWERREGLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "8e6f7513-e9ad-46f3-802c-093f8ea98fa1",
+            "sourceLineageTag": "LOWER60SECLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECLOCALVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECLOCALVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "e68b3d2f-f9b1-48e1-a67f-69060cf48b64",
+            "sourceLineageTag": "LOWER6SECLOCALVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "8b1e9e3c-0ca2-40f5-a2a4-f522792bb2f8",
+            "sourceLineageTag": "RAISE5MINVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "1c85a1a1-9cf0-4595-8bec-670b63029835",
+            "sourceLineageTag": "RAISEREGVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "4fdfd727-d186-4d78-bcd5-462a0cbab23a",
+            "sourceLineageTag": "RAISE60SECVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "3b33d0ce-2ab8-404c-979e-607c4b2b0b94",
+            "sourceLineageTag": "RAISE6SECVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "3ff8def1-db93-4d0e-b576-5234b7a5c582",
+            "sourceLineageTag": "LOWER5MINVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "4b309377-5fc1-417b-a570-c836f546badc",
+            "sourceLineageTag": "LOWERREGVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "c1688abb-b5a0-40c6-8cfb-53068ce9737b",
+            "sourceLineageTag": "LOWER60SECVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECVIOLATION",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECVIOLATION",
+            "sourceProviderType": "float",
+            "lineageTag": "2a64a2a3-4c4e-42dd-8473-fe5df697fb7a",
+            "sourceLineageTag": "LOWER6SECVIOLATION",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECRRP",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "46942d22-dffc-4de8-9d6e-c94947bbcde7",
+            "sourceLineageTag": "RAISE6SECRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECROP",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECROP",
+            "sourceProviderType": "float",
+            "lineageTag": "cb3658f5-22bd-4916-84a3-1ebab1fb5df5",
+            "sourceLineageTag": "RAISE6SECROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "70c47ee2-b062-4285-a205-e8c7e5e13616",
+            "sourceLineageTag": "RAISE6SECAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECRRP",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "7238bc77-016c-49b0-9295-071293c4f373",
+            "sourceLineageTag": "RAISE60SECRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECROP",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECROP",
+            "sourceProviderType": "float",
+            "lineageTag": "e9d86f92-ed7a-4e99-8fd9-fa544b35bc91",
+            "sourceLineageTag": "RAISE60SECROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "d9dedffd-762b-41c8-9033-74dc6b099b84",
+            "sourceLineageTag": "RAISE60SECAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINRRP",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "7d1d02ae-de11-451f-b72a-ff6f5c12695a",
+            "sourceLineageTag": "RAISE5MINRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINROP",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINROP",
+            "sourceProviderType": "float",
+            "lineageTag": "93720278-6823-4bba-87ea-8aa7fe2abd6c",
+            "sourceLineageTag": "RAISE5MINROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "f547c21e-e73d-4b78-8e72-638a668ec22a",
+            "sourceLineageTag": "RAISE5MINAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGRRP",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "6c72c5a4-18e1-437d-9603-3338e3e9da2e",
+            "sourceLineageTag": "RAISEREGRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGROP",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGROP",
+            "sourceProviderType": "float",
+            "lineageTag": "2ee82ba5-f00c-4770-a650-f1ee5ba3355c",
+            "sourceLineageTag": "RAISEREGROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "ec39c7ad-7a0a-491c-afca-21ca5fd21cfb",
+            "sourceLineageTag": "RAISEREGAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECRRP",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "0e3d6382-92cf-4725-b88d-c4990879d3ed",
+            "sourceLineageTag": "LOWER6SECRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECROP",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECROP",
+            "sourceProviderType": "float",
+            "lineageTag": "a15e54fb-c82d-423a-8a67-1515228ffb42",
+            "sourceLineageTag": "LOWER6SECROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "3f527ca9-6079-4bec-b2e8-3a0125d94d99",
+            "sourceLineageTag": "LOWER6SECAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECRRP",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "9e432a73-4f1f-4f6a-9e41-d1f682714d63",
+            "sourceLineageTag": "LOWER60SECRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECROP",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECROP",
+            "sourceProviderType": "float",
+            "lineageTag": "7a59e9ff-9eb6-47b0-b2fa-93af7421744a",
+            "sourceLineageTag": "LOWER60SECROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "183b58a6-22cc-4438-80ca-d396a9e4e871",
+            "sourceLineageTag": "LOWER60SECAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINRRP",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "8608b0c6-52e3-4fc8-adf6-5fa27538b610",
+            "sourceLineageTag": "LOWER5MINRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINROP",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINROP",
+            "sourceProviderType": "float",
+            "lineageTag": "059a0af9-fb44-4b6c-997d-2cf631e97d22",
+            "sourceLineageTag": "LOWER5MINROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "7f7e2c46-7ff9-437d-808a-7c5e65304c60",
+            "sourceLineageTag": "LOWER5MINAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGRRP",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGRRP",
+            "sourceProviderType": "float",
+            "lineageTag": "d78e4ce4-3c59-4451-b3a3-68eb1232cf61",
+            "sourceLineageTag": "LOWERREGRRP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGROP",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGROP",
+            "sourceProviderType": "float",
+            "lineageTag": "7f115867-4414-4e3d-9015-e6306d65d11f",
+            "sourceLineageTag": "LOWERREGROP",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGAPCFLAG",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGAPCFLAG",
+            "sourceProviderType": "float",
+            "lineageTag": "f3fd99db-809e-4109-8e29-adfdfa383fa7",
+            "sourceLineageTag": "LOWERREGAPCFLAG",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE6SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "87f812b1-b26d-47a7-9ff2-d2babdda35d7",
+            "sourceLineageTag": "RAISE6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE60SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "6c3495c9-8a74-47ea-8f75-6ae0146bdc5e",
+            "sourceLineageTag": "RAISE60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISE5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISE5MINACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "29c00e46-9e54-4957-93d7-8db5c2ac5385",
+            "sourceLineageTag": "RAISE5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RAISEREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "RAISEREGACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "8bd1a85e-6d9f-46fc-8043-cce7995aa62d",
+            "sourceLineageTag": "RAISEREGACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER6SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "e67f2077-ac06-4322-8ef4-6dc14e334dae",
+            "sourceLineageTag": "LOWER6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER60SECACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "7d7f961c-c89a-4bd8-8109-48781d5995a2",
+            "sourceLineageTag": "LOWER60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWER5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWER5MINACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "18ecd5d3-06a8-49b6-86ae-5b6da330d77e",
+            "sourceLineageTag": "LOWER5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LOWERREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "sourceColumn": "LOWERREGACTUALAVAILABILITY",
+            "sourceProviderType": "float",
+            "lineageTag": "f960e806-3b81-4f3e-b330-125f0c93f3e8",
+            "sourceLineageTag": "LOWERREGACTUALAVAILABILITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LORSURPLUS",
+            "dataType": "double",
+            "sourceColumn": "LORSURPLUS",
+            "sourceProviderType": "float",
+            "lineageTag": "e0ce15e5-8a5a-49b5-974c-c5bbbac3a45c",
+            "sourceLineageTag": "LORSURPLUS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LRCSURPLUS",
+            "dataType": "double",
+            "sourceColumn": "LRCSURPLUS",
+            "sourceProviderType": "float",
+            "lineageTag": "8d49f3a5-13d0-4eb1-a666-e5b1051dc079",
+            "sourceLineageTag": "LRCSURPLUS",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "file",
+            "dataType": "string",
+            "sourceColumn": "file",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "72d20c09-62e3-4dce-b00f-ffb1aac12af9",
+            "sourceLineageTag": "file",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PRIORITY",
+            "dataType": "int64",
+            "sourceColumn": "PRIORITY",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "lineageTag": "ed8362cf-7911-4fd8-8e67-7e4e9e4289a8",
+            "sourceLineageTag": "PRIORITY",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "DATE",
+            "formatString": "General Date",
+            "sourceProviderType": "date",
+            "lineageTag": "797d8777-9fa4-4c1b-b576-841384fdc9a4",
+            "sourceLineageTag": "DATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "formatString": "0",
+            "sourceProviderType": "int",
+            "lineageTag": "6c2c17f5-cc65-45ee-bb7c-0a0fff3efb1f",
+            "sourceLineageTag": "year",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "price",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "price",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "duid",
+        "lineageTag": "bdf8cece-adaf-49b2-9a61-764d54144586",
+        "sourceLineageTag": "[dbo].[duid]",
+        "columns": [
+          {
+            "name": "DUID",
+            "dataType": "string",
+            "sourceColumn": "DUID",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "78c5bd2d-5b60-48f7-9c16-d2fccf75d9b7",
+            "sourceLineageTag": "DUID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Region",
+            "dataType": "string",
+            "sourceColumn": "Region",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "81aed049-6ab2-4191-821f-0dea8a3ad91d",
+            "sourceLineageTag": "Region",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Technology",
+            "dataType": "string",
+            "sourceColumn": "Technology",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "4d5095f1-490b-45e6-b5f6-812ce89472a9",
+            "sourceLineageTag": "Technology",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "duid",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "duid",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "mstdatetime",
+        "lineageTag": "ef9ba955-6f5b-4195-859b-3f47bd4ef59d",
+        "sourceLineageTag": "[dbo].[mstdatetime]",
+        "columns": [
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "sourceColumn": "SETTLEMENTDATE",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "lineageTag": "4f69e712-2a7c-42d7-b0f1-1a96c50ef49f",
+            "sourceLineageTag": "SETTLEMENTDATE",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "time",
+            "dataType": "string",
+            "sourceColumn": "time",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "fab69da1-b0a1-4644-843b-6c3325fd6c41",
+            "sourceLineageTag": "time",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "lineageTag": "c400dcc5-d40a-43bf-a7c0-d874ad9c4446",
+            "sourceLineageTag": "date",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "formatString": "0",
+            "sourceProviderType": "bigint",
+            "lineageTag": "763d2851-d99c-4001-a291-0544102ce92d",
+            "sourceLineageTag": "year",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "sourceColumn": "month",
+            "formatString": "0",
+            "sourceProviderType": "bigint",
+            "lineageTag": "c910516d-77fe-4c50-8819-5e224352b622",
+            "sourceLineageTag": "month",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "mstdatetime",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "mstdatetime",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Mw",
+            "expression": [
+              "var var_max=TODAY()",
+              "RETURN",
+              "CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=1 ),filter('calendar', 'calendar'[date]< var_max)) +",
+              "CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>= var_max))"
+            ],
+            "lineageTag": "81fc2b83-e618-4909-85b1-b04b6bb9908c",
+            "changedProperties": [
+              {
+                "property": "Name"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Price_AVG",
+            "expression": [
+              "CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=1 ),filter('calendar', 'calendar'[date]<TODAY())) +",
+              "    CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>=TODAY()))"
+            ],
+            "lineageTag": "4a9e452f-3507-492b-b95c-38a8f0777cd3",
+            "changedProperties": [
+              {
+                "property": "Name"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Mwh",
+            "expression": "[Mw]/12",
+            "lineageTag": "83200da9-ad29-4af2-9b70-3d9244507376",
+            "changedProperties": [
+              {
+                "property": "Name"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "states",
+        "lineageTag": "4060a696-ddcf-48a7-9f13-5042d170b1dd",
+        "sourceLineageTag": "[dbo].[states]",
+        "columns": [
+          {
+            "name": "RegionID",
+            "dataType": "string",
+            "sourceColumn": "RegionID",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "a5bd9a78-c8a2-404e-99a8-556272e50a04",
+            "sourceLineageTag": "RegionID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "States",
+            "dataType": "string",
+            "sourceColumn": "States",
+            "sourceProviderType": "varchar(8000)",
+            "lineageTag": "a1734369-c2ed-493f-be51-9979fd360d55",
+            "sourceLineageTag": "States",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "states",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "states",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "calendar",
+        "lineageTag": "c713ca0c-1b4e-46c3-ac59-4eb80f4039ee",
+        "sourceLineageTag": "[dbo].[calendar]",
+        "dataCategory": "Time",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "isKey": true,
+            "sourceColumn": "date",
+            "formatString": "General Date",
+            "sourceProviderType": "datetime2",
+            "lineageTag": "6dfdf7f5-1ab2-4b31-95ab-85bb6262efea",
+            "sourceLineageTag": "date",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "formatString": "0",
+            "sourceProviderType": "bigint",
+            "lineageTag": "707316ab-9370-4c88-b472-442254e2e614",
+            "sourceLineageTag": "year",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "sourceColumn": "month",
+            "formatString": "0",
+            "sourceProviderType": "bigint",
+            "lineageTag": "bbe9b458-9ba8-4f5f-b3f6-3429aab6e279",
+            "sourceLineageTag": "month",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "calendar",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "calendar",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "31785fbc-eccc-f612-e8fa-969200c43eb8",
+        "fromTable": "scada",
+        "fromColumn": "SETTLEMENTDATE",
+        "toTable": "mstdatetime",
+        "toColumn": "SETTLEMENTDATE",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "4ba87efd-34ff-2ad3-6090-22fa4a8bcbfd",
+        "fromTable": "price",
+        "fromColumn": "SETTLEMENTDATE",
+        "toTable": "mstdatetime",
+        "toColumn": "SETTLEMENTDATE",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "efc8b79b-2703-7ba8-9f62-bb8235781d84",
+        "fromTable": "scada",
+        "fromColumn": "DUID",
+        "toTable": "duid",
+        "toColumn": "DUID",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "3c2af11a-24c1-8322-d480-00e77e63333c",
+        "fromTable": "price",
+        "fromColumn": "REGIONID",
+        "toTable": "states",
+        "toColumn": "RegionID",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "88c00364-7114-7201-0be2-edc2765170cf",
+        "fromTable": "duid",
+        "fromColumn": "Region",
+        "toTable": "states",
+        "toColumn": "RegionID",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "72e3b124-2ca5-344d-6c00-0b709dcc3185",
+        "fromTable": "price",
+        "fromColumn": "DATE",
+        "toTable": "calendar",
+        "toColumn": "date",
+        "relyOnReferentialIntegrity": true
+      },
+      {
+        "name": "feafb3c3-d6d0-32c6-bf9f-d69572e17a1a",
+        "fromTable": "scada",
+        "fromColumn": "DATE",
+        "toTable": "calendar",
+        "toColumn": "date",
+        "relyOnReferentialIntegrity": true
+      }
+    ],
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Version": "1.0.0",
+            "Language": "en-US"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "kind": "m",
+        "expression": [
+          "let",
+          "    database = Sql.Database(\"2DDWQ77IORTEVBFX7IT6GYSRXA-JBHFMIJM5XUEFHVEMTMDFBN2IU.datawarehouse.fabric.microsoft.com\", \"409bad4e-fb1b-4ed7-8350-be56740166a2\")",
+          "in",
+          "    database"
+        ],
+        "lineageTag": "0370d471-cba8-4a31-86ac-f4a945a93cf3",
+        "annotations": [
+          {
+            "name": "PBI_IncludeFutureArtifacts",
+            "value": "False"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.127.7217.1 (Main)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DatabaseQuery\"]"
+      },
+      {
+        "name": "TabularEditor_SerializeOptions",
+        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":false,\"LocalRelationships\":false,\"Levels\":[\"Data Sources\",\"Shared Expressions\",\"Perspectives\",\"Relationships\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Tables/Calculation Items\",\"Translations\"]}"
+      }
+    ]
+  }
+}
