@@ -8,13 +8,19 @@ A Full end to end solution using Fabric Lakehouse
 
 3-open a notebook, attached it to the Lakehouse
 
-4-Run the notebook in sequence just to have the initial load ( you may want to change Nbr_Files_to_Download to a bigger numbers, the data source for 5 minutes is kept only for two days, the 24 hours is only for 2 Months, I have the 5 years worth of data but I don't know how to share it with a minimum cost)
+4-Run the notebook 1, new data arrive at 5 am Brisbane time, AEMO keep an archive for 60 days ( add a schedule to keep it updated)
 
-add a schedule for those notebooks,  5 minutes and  24 Hours get a new files only at 6 AM Brisbane time
+5-Run notebooks 2, it is one off operation ( calendar and states tables)
 
-## PowerBI
-an import model pbix is provided, alternatively you can run a script to comvert the pbix to a direct lake mode
+6-import the pbix to get PowerBI report working in import mode, change the source connection to Point to the new SQL endpoint
 
 
 <img width="733" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/62a5ac05-34b7-4ad8-af74-6d8d92a211a3">
+
+
+## Optional
+
+7- run notebook 3 to create a new Direct Lake semantic model that uses the existing import mode
+
+8- run notebook 4 to have the data updated every 5 minutes ( add a schedule to keep updated )
 
