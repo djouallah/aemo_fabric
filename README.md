@@ -22,5 +22,5 @@ A Full end to end solution using Fabric Lakehouse
 
 7- run notebook 3 to create a new Direct Lake semantic model that uses the existing import mode
 
-8- run notebook 4 to have the data updated every 5 minutes ( add a schedule to keep updated )
+8- run notebook 4 to have the data updated every 5 minutes ( add a schedule to keep it updated )
 
