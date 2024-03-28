@@ -13,7 +13,8 @@
 5-import the pbix to get PowerBI report working in import mode, change the source connection to Point to the new SQL endpoint
 
 
-<img width="733" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/62a5ac05-34b7-4ad8-af74-6d8d92a211a3">
+<img width="881" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/90dfe7c9-0258-4976-8c45-3b7c6322882d">
+
 
 
 ## Optional
