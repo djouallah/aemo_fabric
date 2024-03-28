@@ -1,5 +1,8 @@
 ## A Full end to end solution using Fabric Lakehouse
 
+AEMO manage electricity and gas systems and markets across Australia,  they provide extensive data at a very granular level and updated every 5 minutes
+
+
 0- Create a Fabric Workspace
 
 1- Create a lakehouse
