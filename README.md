@@ -4,7 +4,8 @@ AEMO manage electricity and gas systems and markets across Australia,  they prov
 
 ## Architecture
 
-![image](https://github.com/djouallah/aemo_fabric/assets/12554469/c6ebcece-a283-468f-8b54-c4f84215229e)
+<img width="742" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/96145683-7cea-4b4f-80fb-089ae63731cf">
+
 
 
 ## Howto
