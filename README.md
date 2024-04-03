@@ -33,3 +33,11 @@ AEMO manage electricity and gas systems and markets across Australia,  they prov
 
 7- run notebook 4 to have the data updated every 5 minutes ( add a schedule to keep it updated )
 
+## Lessons learnt
+
+-	Use data pipeline to schedule job, to control concurrency and timeout.
+
+  
+-	Develop using starter pool, but for production use a single node to reduce capacity usage.  
+
+
