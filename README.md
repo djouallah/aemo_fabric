@@ -42,6 +42,10 @@ https://nemweb.com.au/Reports/CURRENT/
 -	Use data pipeline to schedule job, to control concurrency and timeout.
 
   
--	Develop using starter pool, but for production use a single node to reduce capacity usage.  
+-	Develop using starter pool, but for production use a single node to reduce capacity usage.
+
+-	 Direct don't like too many small files, optimize to get good performance
+
+-	 vacuum to remove old snapshots to reduce data storage. 
 
 
