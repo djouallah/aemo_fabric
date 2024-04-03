@@ -1,6 +1,10 @@
 ## A Full end to end solution using Fabric Lakehouse
 
-AEMO manage electricity and gas systems and markets across Australia,  they provide extensive data at a very granular level and updated every 5 minutes
+AEMO manage electricity and gas systems and markets across Australia,  they provide extensive data at a very granular level and updated every 5 minutes, see example here
+https://nemweb.com.au/Reports/CURRENT/
+
+<img width="503" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/464009ce-f424-40c5-b35e-8a93cd80f574">
+
 
 ## Architecture
 
