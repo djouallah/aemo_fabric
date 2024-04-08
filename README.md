@@ -26,8 +26,8 @@ https://nemweb.com.au/Reports/CURRENT/
 
 5-import the pbix to get PowerBI report working in import mode, change the source connection to Point to the new SQL endpoint
 
+<img width="1106" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/0c802002-9478-49bc-b9b4-0bb37c8ce93c">
 
-<img width="881" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/90dfe7c9-0258-4976-8c45-3b7c6322882d">
 
 
 
