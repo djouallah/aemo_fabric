@@ -34,7 +34,7 @@
         "name": "DatabaseQuery",
         "expression": [
           "let",
-          "\tdatabase = Sql.Database(\"xpkymsttihxelp6vuo2w5ywt2u-nrmvgy4o4dkunnkp24ezbdvn4e.datawarehouse.fabric.microsoft.com\", \"7660ece2-7329-42f2-8fbb-761535d64797\")",
+          "\tdatabase = Sql.Database(\"2ddwq77iortevbfx7it6gysrxa-7scwggioleaedkkkm5olpkqt4y.datawarehouse.fabric.microsoft.com\", \"b26ce7b8-7b35-4b2d-8260-56e03417c925\")",
           "in",
           "\tdatabase"
         ],
