@@ -21,7 +21,7 @@
 
 # CELL ********************
 
-Nbr_Files_to_Download = 20
+Nbr_Files_to_Download = 70
 
 # METADATA ********************
 
