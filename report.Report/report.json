@@ -1,0 +1,88 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.51\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "filters": "[{\"name\":\"Filter64be685378e4d2011eb4\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"duid\"}},\"Property\":\"Region\"}},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}]",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "752f4fd8d61e86851a12",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2be9a091e18c62109225\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.695256074824924,\"y\":156.5783577997462,\"z\":2,\"width\":927.9192843378402,\"height\":234.8675366996193,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"MstDatetime.SETTLEMENTDATE\",\"active\":true}],\"Series\":[{\"queryRef\":\"states.States\"}],\"Y\":[{\"queryRef\":\"0_measures.Mwh\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"states\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"mstdatetime\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"States\"},\"Name\":\"states.States\",\"NativeReferenceName\":\"States\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"SETTLEMENTDATE\"},\"Name\":\"MstDatetime.SETTLEMENTDATE\",\"NativeReferenceName\":\"SETTLEMENTDATE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"},\"Name\":\"0_measures.Mwh\",\"NativeReferenceName\":\"Mwh\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"SETTLEMENTDATE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.87,
+          "width": 927.92,
+          "x": 10.70,
+          "y": 156.58,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"8c750c1e55917ade3610\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.695256074824924,\"y\":391.4458944993655,\"z\":3,\"width\":927.9192843378402,\"height\":313.15671559949243,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"MstDatetime.SETTLEMENTDATE\",\"active\":true}],\"Series\":[{\"queryRef\":\"states.States\"}],\"Y\":[{\"queryRef\":\"calendar.Price_AVG\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"states\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"mstdatetime\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"States\"},\"Name\":\"states.States\",\"NativeReferenceName\":\"States\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"SETTLEMENTDATE\"},\"Name\":\"MstDatetime.SETTLEMENTDATE\",\"NativeReferenceName\":\"SETTLEMENTDATE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Price_AVG\"},\"Name\":\"calendar.Price_AVG\",\"NativeReferenceName\":\"Price_AVG\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"SETTLEMENTDATE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 313.16,
+          "width": 927.92,
+          "x": 10.70,
+          "y": 391.45,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"bdfcbd1680e08acecacd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.267433298344013,\"y\":16.68457910980902,\"z\":1,\"width\":465.88478591235963,\"height\":107.80804963261214,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Calendar.date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"date\"},\"Name\":\"Calendar.date\",\"NativeReferenceName\":\"date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter367f3ddd79ef72405019\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"calendar\"}},\"Property\":\"Mwh\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+          "height": 107.81,
+          "width": 465.88,
+          "x": 10.27,
+          "y": 16.68,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"f66f54404cc81ce6a372\",\"layouts\":[{\"id\":0,\"position\":{\"x\":938.614540412665,\"y\":156.5783577997462,\"z\":4,\"width\":337.5418696830594,\"height\":548.0242522991117,\"tabOrder\":4}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"duid.FuelSourceDescriptor\",\"active\":true}],\"Y\":[{\"queryRef\":\"calendar.Mwh\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"duid\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FuelSourceDescriptor\"},\"Name\":\"duid.FuelSourceDescriptor\",\"NativeReferenceName\":\"FuelSourceDescriptor\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"},\"Name\":\"calendar.Mwh\",\"NativeReferenceName\":\"Mwh\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 548.02,
+          "width": 337.54,
+          "x": 938.61,
+          "y": 156.58,
+          "z": 4.00
+        },
+        {
+          "config": "{\"name\":\"f6b6e9e1b0789e49a032\",\"layouts\":[{\"id\":0,\"position\":{\"x\":875.726511460308,\"y\":16.68457910980902,\"z\":0,\"width\":351.6595904682825,\"height\":105.24119130802613,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(scada.SETTLEMENTDATE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"scada\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"SETTLEMENTDATE\"}},\"Function\":4},\"Name\":\"Min(scada.SETTLEMENTDATE)\",\"NativeReferenceName\":\"Latest SETTLEMENTDATE\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"SETTLEMENTDATE\"}},\"Function\":4}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 105.24,
+          "width": 351.66,
+          "x": 875.73,
+          "y": 16.68,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f955d3e7d4399d30eb0b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":516.3663460182676,\"y\":5.133716649172006,\"z\":5,\"width\":359.36016544204045,\"height\":151.4446411505742,\"tabOrder\":5}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"states.States\",\"active\":true}],\"Values\":[{\"queryRef\":\"calendar.Mwh\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"calendar\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"states\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"States\"},\"Name\":\"states.States\",\"NativeReferenceName\":\"States\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"},\"Name\":\"calendar.Mwh\",\"NativeReferenceName\":\"Mwh\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Mwh\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 151.44,
+          "width": 359.36,
+          "x": 516.37,
+          "y": 5.13,
+          "z": 5.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

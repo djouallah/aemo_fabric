@@ -1,0 +1,1685 @@
+{
+  "compatibilityLevel": 1605,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.129.7266.1 (Main)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"WebModelingEdit\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "expression": [
+          "let",
+          "\tdatabase = Sql.Database(\"xpkymsttihxelp6vuo2w5ywt2u-nrmvgy4o4dkunnkp24ezbdvn4e.datawarehouse.fabric.microsoft.com\", \"7660ece2-7329-42f2-8fbb-761535d64797\")",
+          "in",
+          "\tdatabase"
+        ],
+        "kind": "m",
+        "lineageTag": "7dfd5591-7010-4b39-9de1-3a9d0fbe4928"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "Relationship",
+        "fromColumn": "DUID",
+        "fromTable": "scada",
+        "toColumn": "DUID",
+        "toTable": "duid"
+      },
+      {
+        "name": "Relationship 1",
+        "fromColumn": "SETTLEMENTDATE",
+        "fromTable": "scada",
+        "toColumn": "SETTLEMENTDATE",
+        "toTable": "mstdatetime"
+      },
+      {
+        "name": "Relationship 2",
+        "fromColumn": "DATE",
+        "fromTable": "scada",
+        "toColumn": "date",
+        "toTable": "calendar"
+      },
+      {
+        "name": "Relationship 3",
+        "fromColumn": "DATE",
+        "fromTable": "price",
+        "toColumn": "date",
+        "toTable": "calendar"
+      },
+      {
+        "name": "Relationship 4",
+        "fromColumn": "REGIONID",
+        "fromTable": "price",
+        "toColumn": "RegionID",
+        "toTable": "states"
+      },
+      {
+        "name": "Relationship 5",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "Region",
+        "fromTable": "duid",
+        "toColumn": "RegionID",
+        "toTable": "states"
+      },
+      {
+        "name": "Relationship 6",
+        "fromColumn": "SETTLEMENTDATE",
+        "fromTable": "price",
+        "toColumn": "SETTLEMENTDATE",
+        "toTable": "mstdatetime"
+      }
+    ],
+    "tables": [
+      {
+        "name": "duid",
+        "columns": [
+          {
+            "name": "DUID",
+            "dataType": "string",
+            "lineageTag": "43f9a044-c85b-47fa-8855-b4d37c236efb",
+            "sourceColumn": "DUID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "dataType": "string",
+            "lineageTag": "04467373-19c9-4fd4-9a97-622cdce1aaf6",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FuelSourceDescriptor",
+            "dataType": "string",
+            "lineageTag": "0bcc17fe-680a-43c2-bc28-0f044c877bcf",
+            "sourceColumn": "FuelSourceDescriptor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Participant",
+            "dataType": "string",
+            "lineageTag": "09aaf6f7-001f-4ee7-9a2c-5cf4b1e09d89",
+            "sourceColumn": "Participant",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "dcfc3c09-e171-429a-9024-938f74fe206d",
+        "partitions": [
+          {
+            "name": "duid",
+            "mode": "directLake",
+            "source": {
+              "entityName": "duid",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      },
+      {
+        "name": "scada",
+        "columns": [
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "90bb566e-d324-47a6-b45a-36fc6d7282a4",
+            "sourceColumn": "SETTLEMENTDATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DUID",
+            "dataType": "string",
+            "lineageTag": "af7f8c75-0720-4177-8758-01f68860e59b",
+            "sourceColumn": "DUID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "INTERVENTION",
+            "dataType": "double",
+            "lineageTag": "04e978e9-3c8d-4022-b915-17ec14a3c891",
+            "sourceColumn": "INTERVENTION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "INITIALMW",
+            "dataType": "double",
+            "lineageTag": "6de97e35-593b-4ad6-b855-2cccc543ee4f",
+            "sourceColumn": "INITIALMW",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRIORITY",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ec468e74-1c58-453c-a047-94f01695da99",
+            "sourceColumn": "PRIORITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DATE",
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "e3ce1dc6-4dbf-42cd-8187-4e71ebd97903",
+            "sourceColumn": "DATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UNIT",
+            "dataType": "string",
+            "lineageTag": "727d8c09-42c3-49b9-a2a9-c301493e0e36",
+            "sourceColumn": "UNIT",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "VERSION",
+            "dataType": "double",
+            "lineageTag": "215a41c2-b92b-4b46-a955-3ba32d9cc4f1",
+            "sourceColumn": "VERSION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RUNNO",
+            "dataType": "double",
+            "lineageTag": "2b1c31e2-0b8f-44c7-bd0b-61ef14bcf2b0",
+            "sourceColumn": "RUNNO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DISPATCHMODE",
+            "dataType": "double",
+            "lineageTag": "33a6e314-899e-4297-8818-04af16038167",
+            "sourceColumn": "DISPATCHMODE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AGCSTATUS",
+            "dataType": "double",
+            "lineageTag": "d0e829fa-492d-4236-b990-5192dc6aee76",
+            "sourceColumn": "AGCSTATUS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TOTALCLEARED",
+            "dataType": "double",
+            "lineageTag": "f85f5525-9beb-47b8-b8f4-b9be5e3cd1fc",
+            "sourceColumn": "TOTALCLEARED",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAMPDOWNRATE",
+            "dataType": "double",
+            "lineageTag": "ee02d0c5-5b77-4f6b-9629-728503e43f9d",
+            "sourceColumn": "RAMPDOWNRATE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAMPUPRATE",
+            "dataType": "double",
+            "lineageTag": "1f6c31dc-9345-4d2e-b9aa-78819b869606",
+            "sourceColumn": "RAMPUPRATE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MIN",
+            "dataType": "double",
+            "lineageTag": "88005696-2aa9-4492-8f65-dab809b014ec",
+            "sourceColumn": "LOWER5MIN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SEC",
+            "dataType": "double",
+            "lineageTag": "b35f0dd4-6614-422d-a9db-8e0a9c70dbfc",
+            "sourceColumn": "LOWER60SEC",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SEC",
+            "dataType": "double",
+            "lineageTag": "1e406f9d-6402-4237-b3ae-97000397f6de",
+            "sourceColumn": "LOWER6SEC",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MIN",
+            "dataType": "double",
+            "lineageTag": "606dee22-2922-4053-afe6-22f864be92b4",
+            "sourceColumn": "RAISE5MIN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SEC",
+            "dataType": "double",
+            "lineageTag": "9709ccf1-70e8-42c0-acf8-38311346e1ed",
+            "sourceColumn": "RAISE60SEC",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SEC",
+            "dataType": "double",
+            "lineageTag": "7394aa51-5fd5-4c40-8151-2ed0cd214f2c",
+            "sourceColumn": "RAISE6SEC",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MARGINAL5MINVALUE",
+            "dataType": "double",
+            "lineageTag": "49db637a-552b-4f0c-abe7-6a589ae936cf",
+            "sourceColumn": "MARGINAL5MINVALUE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MARGINAL60SECVALUE",
+            "dataType": "double",
+            "lineageTag": "8d204dec-d5dd-4228-9dfe-b4c6f59810f7",
+            "sourceColumn": "MARGINAL60SECVALUE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MARGINAL6SECVALUE",
+            "dataType": "double",
+            "lineageTag": "a128841b-e3a1-4ef4-baf5-8f8571547f77",
+            "sourceColumn": "MARGINAL6SECVALUE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MARGINALVALUE",
+            "dataType": "double",
+            "lineageTag": "12562587-f9bf-472c-8610-ae53fe3939ea",
+            "sourceColumn": "MARGINALVALUE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VIOLATION5MINDEGREE",
+            "dataType": "double",
+            "lineageTag": "27a2a425-c9cf-4e82-a3df-90a94fde3be5",
+            "sourceColumn": "VIOLATION5MINDEGREE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VIOLATION60SECDEGREE",
+            "dataType": "double",
+            "lineageTag": "2a518686-f0b7-4dc1-9703-036a8a8312d3",
+            "sourceColumn": "VIOLATION60SECDEGREE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VIOLATION6SECDEGREE",
+            "dataType": "double",
+            "lineageTag": "f59dfa6e-3500-47b0-a198-806f09579f6a",
+            "sourceColumn": "VIOLATION6SECDEGREE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "VIOLATIONDEGREE",
+            "dataType": "double",
+            "lineageTag": "aa219564-f1d1-4222-9613-aabd033609da",
+            "sourceColumn": "VIOLATIONDEGREE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREG",
+            "dataType": "double",
+            "lineageTag": "98896801-aa7d-4676-8600-3913e36460ca",
+            "sourceColumn": "LOWERREG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREG",
+            "dataType": "double",
+            "lineageTag": "070b8034-3e4d-44cb-b5c3-ade089853816",
+            "sourceColumn": "RAISEREG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "cf438257-a00e-4b33-8dee-6e79c9da4dd8",
+            "sourceColumn": "AVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECFLAGS",
+            "dataType": "double",
+            "lineageTag": "205f80ac-526f-4983-80ec-63c7046eef40",
+            "sourceColumn": "RAISE6SECFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECFLAGS",
+            "dataType": "double",
+            "lineageTag": "1ed48b35-7589-4667-833f-2af1e9462a77",
+            "sourceColumn": "RAISE60SECFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINFLAGS",
+            "dataType": "double",
+            "lineageTag": "5a2df2d9-08ee-4ea7-aa09-2313376f5897",
+            "sourceColumn": "RAISE5MINFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGFLAGS",
+            "dataType": "double",
+            "lineageTag": "c65ccc25-2035-4b04-afde-651f50f072c6",
+            "sourceColumn": "RAISEREGFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECFLAGS",
+            "dataType": "double",
+            "lineageTag": "7f8eeb04-25ad-47f3-8e67-ccd6e3aff923",
+            "sourceColumn": "LOWER6SECFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECFLAGS",
+            "dataType": "double",
+            "lineageTag": "335566f7-0fdf-428a-a59e-e90278b49397",
+            "sourceColumn": "LOWER60SECFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINFLAGS",
+            "dataType": "double",
+            "lineageTag": "a36e5edb-23d8-43d4-aebd-19df0e3c85f5",
+            "sourceColumn": "LOWER5MINFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGFLAGS",
+            "dataType": "double",
+            "lineageTag": "b19f5d1c-1466-49ac-a758-bfc6316ef4bd",
+            "sourceColumn": "LOWERREGFLAGS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "9991b4b5-a276-4d3c-b3cb-2f6edbeaa643",
+            "sourceColumn": "RAISEREGAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGENABLEMENTMAX",
+            "dataType": "double",
+            "lineageTag": "de6141c6-61aa-41a4-b0a3-829abece2fa5",
+            "sourceColumn": "RAISEREGENABLEMENTMAX",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGENABLEMENTMIN",
+            "dataType": "double",
+            "lineageTag": "5a9ec812-a484-4d78-a297-0996786e44eb",
+            "sourceColumn": "RAISEREGENABLEMENTMIN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "10f274d2-2bfe-44ae-95ad-44922c4bca9e",
+            "sourceColumn": "LOWERREGAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGENABLEMENTMAX",
+            "dataType": "double",
+            "lineageTag": "88aeb93f-eedd-447c-a1dd-5bd6057c8177",
+            "sourceColumn": "LOWERREGENABLEMENTMAX",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGENABLEMENTMIN",
+            "dataType": "double",
+            "lineageTag": "4ba0a871-5421-41fe-bd1f-d38f10371e23",
+            "sourceColumn": "LOWERREGENABLEMENTMIN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "66eab499-baa5-468a-a27a-2e0aa4c003f5",
+            "sourceColumn": "RAISE6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "69223c3d-75a7-42ef-84a2-ea904f2ccd08",
+            "sourceColumn": "RAISE60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "20a7ce6d-eb8a-4c17-a0df-0dc949bed727",
+            "sourceColumn": "RAISE5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "8b6d87eb-3f60-43d1-9c2d-f64094de282e",
+            "sourceColumn": "RAISEREGACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "cd31f275-e88d-46b5-bff3-436633a5fe61",
+            "sourceColumn": "LOWER6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "a73bf303-86db-49ea-8e47-54278205fddc",
+            "sourceColumn": "LOWER60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "2bd17e89-f984-43bb-8f76-ca581ebc91c0",
+            "sourceColumn": "LOWER5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "3fb571a6-d962-461a-96bd-1e390977dfe9",
+            "sourceColumn": "LOWERREGACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "transactionId",
+            "dataType": "string",
+            "lineageTag": "d1a6f58e-6c15-469f-8c9a-48ef3f12dcdd",
+            "sourceColumn": "transactionId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "file",
+            "dataType": "string",
+            "lineageTag": "04471600-f8e3-43ed-bf7d-df314ad52d9b",
+            "sourceColumn": "file",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1f5a9c2a-6166-43f8-a52a-8c4cea04d1cb",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "782a48a6-273d-43bb-b0c1-5e2f2be66a2a",
+        "partitions": [
+          {
+            "name": "scada",
+            "mode": "directLake",
+            "source": {
+              "entityName": "scada",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      },
+      {
+        "name": "mstdatetime",
+        "columns": [
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "16762fbb-5147-434b-9a10-9afc2b97754d",
+            "sourceColumn": "SETTLEMENTDATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "time",
+            "dataType": "string",
+            "lineageTag": "ee16e0d7-7357-44cb-9210-7f0a1d97db43",
+            "sourceColumn": "time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "22dda249-dd70-4e20-b267-998d536a0eb2",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "58a82dc5-c812-435f-9ad3-5e2185f28449",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "268c77ea-c8e2-4119-b283-de83b4535366",
+            "sourceColumn": "month",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "ff1677cf-cf11-4ba1-8784-35f66232c3d2",
+        "partitions": [
+          {
+            "name": "mstdatetime",
+            "mode": "directLake",
+            "source": {
+              "entityName": "mstdatetime",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      },
+      {
+        "name": "calendar",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isKey": true,
+            "lineageTag": "455d21c1-76ce-4916-b628-fe98a4a03665",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7254ad31-8f17-4c65-b90b-a212775430a3",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c968c1cb-212e-4b25-b870-91e9d3abd2f5",
+            "sourceColumn": "month",
+            "summarizeBy": "sum"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "74f2b37b-7d6e-4238-b6ea-649ad71f7563",
+        "measures": [
+          {
+            "name": "Mw",
+            "expression": [
+              "var var_max=TODAY()",
+              "RETURN",
+              "CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=1 ),filter('calendar', 'calendar'[date]< var_max)) +",
+              "CALCULATE(sum(scada[INITIALMW]),filter(scada,scada[INTERVENTION]=0 && scada[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>= var_max))"
+            ],
+            "lineageTag": "ce6f7910-facb-44c4-967e-9a146668d1dc"
+          },
+          {
+            "name": "Mwh",
+            "expression": "[Mw]/12",
+            "lineageTag": "c63b0fa5-24ce-41e8-9d7c-d5949cbeb92c"
+          },
+          {
+            "name": "Price_AVG",
+            "expression": [
+              "CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=1 ),filter('calendar', 'calendar'[date]<TODAY())) +",
+              "    CALCULATE(AVERAGE('price'[RRP]),filter('price','price'[INTERVENTION]=0 && 'price'[PRIORITY]=0 ),filter('calendar', 'calendar'[date]>=TODAY()))"
+            ],
+            "lineageTag": "b9d47844-2a40-4df9-ab90-f74392b3e8f8"
+          },
+          {
+            "name": "total_records",
+            "expression": "CALCULATE(COUNT(scada[DATE]),REMOVEFILTERS())",
+            "formatString": "0",
+            "lineageTag": "935a9270-17c6-443b-9e88-61fd6ea9ee79"
+          },
+          {
+            "name": "Latest_update",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "Name"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": "CALCULATE(max(scada[SETTLEMENTDATE]),REMOVEFILTERS())",
+            "formatString": "mmm d\\, yyyy h:nn AM/PM",
+            "lineageTag": "93e3795e-b69c-459a-b1ac-91a11951f6dd"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "calendar",
+            "mode": "directLake",
+            "source": {
+              "entityName": "calendar",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      },
+      {
+        "name": "price",
+        "columns": [
+          {
+            "name": "SETTLEMENTDATE",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "d17458f9-5505-4e13-af48-a2ea7b09b2fd",
+            "sourceColumn": "SETTLEMENTDATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "REGIONID",
+            "dataType": "string",
+            "lineageTag": "751c8caa-1370-4703-b19a-db70d07d595c",
+            "sourceColumn": "REGIONID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "INTERVENTION",
+            "dataType": "double",
+            "lineageTag": "d5c77ddc-2641-4690-b7ae-b0d6d4cd4f4e",
+            "sourceColumn": "INTERVENTION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RRP",
+            "dataType": "double",
+            "lineageTag": "b4b98484-22f6-4f5e-943b-0dfeea150b93",
+            "sourceColumn": "RRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PRIORITY",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "534561e5-3c56-438d-9445-658bf74538b4",
+            "sourceColumn": "PRIORITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DATE",
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "1f4cde1b-3168-49a4-b55b-f89608deb73b",
+            "sourceColumn": "DATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "UNIT",
+            "dataType": "string",
+            "lineageTag": "45c83389-20a1-4744-9cd9-90464f9308f1",
+            "sourceColumn": "UNIT",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "VERSION",
+            "dataType": "double",
+            "lineageTag": "b152e9b3-1665-48f2-81ca-22deca44d707",
+            "sourceColumn": "VERSION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RUNNO",
+            "dataType": "double",
+            "lineageTag": "a612aca3-451f-4901-b194-eea10a2472c1",
+            "sourceColumn": "RUNNO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EEP",
+            "dataType": "double",
+            "lineageTag": "8469a127-7998-42eb-805f-0ad4420eb977",
+            "sourceColumn": "EEP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ROP",
+            "dataType": "double",
+            "lineageTag": "7faa569d-091e-4d8d-8ad1-d665cc27566d",
+            "sourceColumn": "ROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "APCFLAG",
+            "dataType": "double",
+            "lineageTag": "3248fcc7-4c52-4e5a-82b5-aba8067dcbce",
+            "sourceColumn": "APCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MARKETSUSPENDEDFLAG",
+            "dataType": "double",
+            "lineageTag": "abe246d9-2a49-4100-b2e8-e477965e9dc6",
+            "sourceColumn": "MARKETSUSPENDEDFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TOTALDEMAND",
+            "dataType": "double",
+            "lineageTag": "c80c6761-6fc9-46f8-8ab2-0270463792b9",
+            "sourceColumn": "TOTALDEMAND",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DEMANDFORECAST",
+            "dataType": "double",
+            "lineageTag": "08a4ab1c-4fbd-4d07-bdc2-f238f7c0867f",
+            "sourceColumn": "DEMANDFORECAST",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DISPATCHABLEGENERATION",
+            "dataType": "double",
+            "lineageTag": "93919124-47aa-4794-be65-e15a844727ef",
+            "sourceColumn": "DISPATCHABLEGENERATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "DISPATCHABLELOAD",
+            "dataType": "double",
+            "lineageTag": "5599de31-f4a4-41ff-9268-856b228bae67",
+            "sourceColumn": "DISPATCHABLELOAD",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "NETINTERCHANGE",
+            "dataType": "double",
+            "lineageTag": "065196ad-0380-4c51-8464-d5ba0344d02d",
+            "sourceColumn": "NETINTERCHANGE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "EXCESSGENERATION",
+            "dataType": "double",
+            "lineageTag": "f8e2aed0-1394-46ed-b954-ff1028c4121e",
+            "sourceColumn": "EXCESSGENERATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINDISPATCH",
+            "dataType": "double",
+            "lineageTag": "c138d183-c928-43f6-ab97-d40a1bf8ab57",
+            "sourceColumn": "LOWER5MINDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINIMPORT",
+            "dataType": "double",
+            "lineageTag": "53788620-0541-4cea-8e73-c97cee0b35f7",
+            "sourceColumn": "LOWER5MINIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "9b1600f4-6f10-4fb4-9c60-efcba5ad7cc8",
+            "sourceColumn": "LOWER5MINLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "94b7a929-1fdc-40ba-80f1-e29365c2feea",
+            "sourceColumn": "LOWER5MINLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "bacd917a-931b-4555-bb24-a8abfd194a06",
+            "sourceColumn": "LOWER5MINLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINPRICE",
+            "dataType": "double",
+            "lineageTag": "2b326fbd-8ec6-4f4b-a48d-69a4f5bcbe26",
+            "sourceColumn": "LOWER5MINPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINREQ",
+            "dataType": "double",
+            "lineageTag": "c453ea4a-2686-4269-b5e9-4c35f2eadd1f",
+            "sourceColumn": "LOWER5MINREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "a624973f-2840-4793-ae1f-69fc62b1354c",
+            "sourceColumn": "LOWER5MINSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECDISPATCH",
+            "dataType": "double",
+            "lineageTag": "2e829c9c-f5cd-44ad-bb44-595cb17022c7",
+            "sourceColumn": "LOWER60SECDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECIMPORT",
+            "dataType": "double",
+            "lineageTag": "14a6c463-5622-4cf9-bd50-01def03a3293",
+            "sourceColumn": "LOWER60SECIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "20ab0e39-dc06-4f83-907d-fca463dfba3f",
+            "sourceColumn": "LOWER60SECLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "eeb379ad-5a2c-48df-89c6-f426628fe375",
+            "sourceColumn": "LOWER60SECLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "5403ea2f-77d5-4bda-ae2c-22c4f4a43531",
+            "sourceColumn": "LOWER60SECLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECPRICE",
+            "dataType": "double",
+            "lineageTag": "ad13b6a8-7fe0-4088-ad6a-4a5e914e6b5a",
+            "sourceColumn": "LOWER60SECPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECREQ",
+            "dataType": "double",
+            "lineageTag": "26dd3f81-91ab-4e90-99e7-9311b42801cc",
+            "sourceColumn": "LOWER60SECREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "db3fedc9-4185-4048-bc5b-0407cd514f23",
+            "sourceColumn": "LOWER60SECSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECDISPATCH",
+            "dataType": "double",
+            "lineageTag": "d1a423ad-552c-4a89-8081-d19f25d5bd78",
+            "sourceColumn": "LOWER6SECDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECIMPORT",
+            "dataType": "double",
+            "lineageTag": "46b83bac-21ed-4cbc-a3d7-e8ba907f5fa5",
+            "sourceColumn": "LOWER6SECIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "6cb9f9ed-a8f5-4ea1-92c2-6e0e16b688be",
+            "sourceColumn": "LOWER6SECLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "2eba4c30-b242-43f9-8fbb-e9eb9ecf68e7",
+            "sourceColumn": "LOWER6SECLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "85db279c-8fec-4724-bf78-25e4f7a2225c",
+            "sourceColumn": "LOWER6SECLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECPRICE",
+            "dataType": "double",
+            "lineageTag": "46dc3996-5a92-4874-abcc-7fe062be195d",
+            "sourceColumn": "LOWER6SECPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECREQ",
+            "dataType": "double",
+            "lineageTag": "79db4f36-ef62-43ce-bf22-1fcf839a7818",
+            "sourceColumn": "LOWER6SECREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "c6d40408-3f4b-441f-8e6d-1b627ac5007e",
+            "sourceColumn": "LOWER6SECSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINDISPATCH",
+            "dataType": "double",
+            "lineageTag": "7df1bfdb-221b-4a44-ba4e-562a72770b2c",
+            "sourceColumn": "RAISE5MINDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINIMPORT",
+            "dataType": "double",
+            "lineageTag": "f7e9d7e9-57b3-4690-b2c0-6c915f5cee16",
+            "sourceColumn": "RAISE5MINIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "dbff3dea-b66c-4d3f-b3b0-de741353dae1",
+            "sourceColumn": "RAISE5MINLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "3a4bf875-3bb8-41b8-bce6-8bb031664147",
+            "sourceColumn": "RAISE5MINLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "464c6628-c438-40bd-9e1e-458ea5a2d21a",
+            "sourceColumn": "RAISE5MINLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINPRICE",
+            "dataType": "double",
+            "lineageTag": "e7097562-a767-49f6-8da2-4166da8509f4",
+            "sourceColumn": "RAISE5MINPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINREQ",
+            "dataType": "double",
+            "lineageTag": "2b539d06-fb8c-4ffa-a87c-4d299c9aad89",
+            "sourceColumn": "RAISE5MINREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "616d8ddc-64ee-4650-bf81-cb4078390b25",
+            "sourceColumn": "RAISE5MINSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECDISPATCH",
+            "dataType": "double",
+            "lineageTag": "fce1d242-30d2-462f-9658-9b5bbfc8fc16",
+            "sourceColumn": "RAISE60SECDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECIMPORT",
+            "dataType": "double",
+            "lineageTag": "70c3aeb6-cb29-47bc-bd84-fe96f5327475",
+            "sourceColumn": "RAISE60SECIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "10fca3b1-a364-44c8-8a6e-097b5d1764cd",
+            "sourceColumn": "RAISE60SECLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "50b133ec-bbe7-4a2e-a44f-451512e38aac",
+            "sourceColumn": "RAISE60SECLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "a914b465-5a33-40b7-b422-53853ab3421f",
+            "sourceColumn": "RAISE60SECLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECPRICE",
+            "dataType": "double",
+            "lineageTag": "9f077373-5076-42be-ba5c-7f1c1f6a8565",
+            "sourceColumn": "RAISE60SECPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECREQ",
+            "dataType": "double",
+            "lineageTag": "48de2908-af5c-4bb9-a9c7-f272da6372cf",
+            "sourceColumn": "RAISE60SECREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "001ffdb5-8a9e-4335-a6c1-09b3d2bf8def",
+            "sourceColumn": "RAISE60SECSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECDISPATCH",
+            "dataType": "double",
+            "lineageTag": "4fc40f13-69f5-4c0a-9952-337f42861e2d",
+            "sourceColumn": "RAISE6SECDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECIMPORT",
+            "dataType": "double",
+            "lineageTag": "0b5172e2-8d41-4533-a089-3581f3ed0453",
+            "sourceColumn": "RAISE6SECIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "7841e334-3315-406c-ae64-d04b101e6d51",
+            "sourceColumn": "RAISE6SECLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECLOCALPRICE",
+            "dataType": "double",
+            "lineageTag": "94465365-f99b-4104-a505-4ee7dbd76fa1",
+            "sourceColumn": "RAISE6SECLOCALPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "7e334da7-6580-4a26-923c-cb0735a3236d",
+            "sourceColumn": "RAISE6SECLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECPRICE",
+            "dataType": "double",
+            "lineageTag": "0460e5e7-7cc4-4470-a45c-d63b78dbdcd6",
+            "sourceColumn": "RAISE6SECPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECREQ",
+            "dataType": "double",
+            "lineageTag": "b409d3c9-8c10-4a4f-a9a0-28655eacced0",
+            "sourceColumn": "RAISE6SECREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECSUPPLYPRICE",
+            "dataType": "double",
+            "lineageTag": "ec88fb72-ddf4-47bb-bc21-89221e7dd1d5",
+            "sourceColumn": "RAISE6SECSUPPLYPRICE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AGGREGATEDISPATCHERROR",
+            "dataType": "double",
+            "lineageTag": "99c6ee64-1f93-4821-bdcb-98cc933c5a3b",
+            "sourceColumn": "AGGREGATEDISPATCHERROR",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AVAILABLEGENERATION",
+            "dataType": "double",
+            "lineageTag": "bd9afc11-3377-43de-acbd-2f6d3ef0e0af",
+            "sourceColumn": "AVAILABLEGENERATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "AVAILABLELOAD",
+            "dataType": "double",
+            "lineageTag": "67021045-84b4-43d6-be87-5522501d8759",
+            "sourceColumn": "AVAILABLELOAD",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "INITIALSUPPLY",
+            "dataType": "double",
+            "lineageTag": "ead4aa2d-0cb8-416f-a6e7-0dde5aa41050",
+            "sourceColumn": "INITIALSUPPLY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CLEAREDSUPPLY",
+            "dataType": "double",
+            "lineageTag": "a98bd31b-b41f-47e3-878b-e9eceda9e5ea",
+            "sourceColumn": "CLEAREDSUPPLY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGIMPORT",
+            "dataType": "double",
+            "lineageTag": "2df5ebd9-5094-4d1b-8291-f619b771ba3b",
+            "sourceColumn": "LOWERREGIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "2feb424a-3ab3-451f-ad49-d6ecb43ae5f6",
+            "sourceColumn": "LOWERREGLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "b3694096-4e85-4ad8-9356-b5e7a6a6d10e",
+            "sourceColumn": "LOWERREGLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGREQ",
+            "dataType": "double",
+            "lineageTag": "3fa5523b-c304-4f0e-82bb-8d0550f27ba4",
+            "sourceColumn": "LOWERREGREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGIMPORT",
+            "dataType": "double",
+            "lineageTag": "f78f84e1-19c2-43ba-8cf0-73953be372e6",
+            "sourceColumn": "RAISEREGIMPORT",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGLOCALDISPATCH",
+            "dataType": "double",
+            "lineageTag": "dd43a891-853d-4b6d-963f-c341560a30cb",
+            "sourceColumn": "RAISEREGLOCALDISPATCH",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGLOCALREQ",
+            "dataType": "double",
+            "lineageTag": "2cef8cd7-1fa0-48d5-a382-b6d5f734040a",
+            "sourceColumn": "RAISEREGLOCALREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGREQ",
+            "dataType": "double",
+            "lineageTag": "a9325216-95af-4530-9f17-33e3b11f54bc",
+            "sourceColumn": "RAISEREGREQ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "8cfa1b1d-2bcd-4aa1-a32a-2622c0edf6ea",
+            "sourceColumn": "RAISE5MINLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "edf4def4-93d1-4513-9856-d815d68b8cf7",
+            "sourceColumn": "RAISEREGLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "fcb97a03-2fd7-447e-a03e-e9b6c1d9085d",
+            "sourceColumn": "RAISE60SECLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "24caa60f-5bef-4cc1-bcc0-0fe15c4d75d8",
+            "sourceColumn": "RAISE6SECLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "8c769f40-6161-4442-9e02-f24ce94190cb",
+            "sourceColumn": "LOWER5MINLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "b4790ae4-08ce-42ae-b536-355041137a5d",
+            "sourceColumn": "LOWERREGLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "8ad6a20d-0da9-4d17-889f-daff27f1a0a8",
+            "sourceColumn": "LOWER60SECLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECLOCALVIOLATION",
+            "dataType": "double",
+            "lineageTag": "66b9a23a-a30f-44a1-b137-bf59a82b8c55",
+            "sourceColumn": "LOWER6SECLOCALVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINVIOLATION",
+            "dataType": "double",
+            "lineageTag": "b3b3ef72-6378-478f-bbbb-1996270bd6c6",
+            "sourceColumn": "RAISE5MINVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGVIOLATION",
+            "dataType": "double",
+            "lineageTag": "b5d8da7f-4013-47b9-96a8-1811a782112f",
+            "sourceColumn": "RAISEREGVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECVIOLATION",
+            "dataType": "double",
+            "lineageTag": "90c95ba5-e6ea-47e1-897e-1ffd518fd912",
+            "sourceColumn": "RAISE60SECVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECVIOLATION",
+            "dataType": "double",
+            "lineageTag": "4102655f-8c7f-4e7b-9dea-cfd1bac6e88f",
+            "sourceColumn": "RAISE6SECVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINVIOLATION",
+            "dataType": "double",
+            "lineageTag": "fef28b9a-574a-47ab-8fc6-541d8c3ffe5f",
+            "sourceColumn": "LOWER5MINVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGVIOLATION",
+            "dataType": "double",
+            "lineageTag": "c4c4de68-95f6-4141-80b2-081689ed76df",
+            "sourceColumn": "LOWERREGVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECVIOLATION",
+            "dataType": "double",
+            "lineageTag": "2b2fc9cc-e0a5-4f60-9f8f-2a66865853ac",
+            "sourceColumn": "LOWER60SECVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECVIOLATION",
+            "dataType": "double",
+            "lineageTag": "cef676ff-daa1-4f03-9cf9-fc344bb6542f",
+            "sourceColumn": "LOWER6SECVIOLATION",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECRRP",
+            "dataType": "double",
+            "lineageTag": "8fc9df0d-1115-4754-9029-8ad4a49cdf3e",
+            "sourceColumn": "RAISE6SECRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECROP",
+            "dataType": "double",
+            "lineageTag": "5b42fa8a-8b90-43be-b63b-7058a05d32d1",
+            "sourceColumn": "RAISE6SECROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "bbab445b-9710-4014-a295-9be80296434c",
+            "sourceColumn": "RAISE6SECAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECRRP",
+            "dataType": "double",
+            "lineageTag": "50a7fdbb-b544-4df7-80da-fc830cc0f026",
+            "sourceColumn": "RAISE60SECRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECROP",
+            "dataType": "double",
+            "lineageTag": "55115871-7c76-4cca-8b5e-df9353379ebd",
+            "sourceColumn": "RAISE60SECROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "baf0d455-0dda-4f14-aada-a680299be580",
+            "sourceColumn": "RAISE60SECAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINRRP",
+            "dataType": "double",
+            "lineageTag": "604263db-468d-46ff-9783-0f0af83a4cde",
+            "sourceColumn": "RAISE5MINRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINROP",
+            "dataType": "double",
+            "lineageTag": "8f11b1cb-ff62-409d-9c7b-499fc806524b",
+            "sourceColumn": "RAISE5MINROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "b0be2f82-1a1a-4fbc-b70b-62b0b1f0eef4",
+            "sourceColumn": "RAISE5MINAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGRRP",
+            "dataType": "double",
+            "lineageTag": "9be9d4a3-3081-44f2-be30-b4deee8b4676",
+            "sourceColumn": "RAISEREGRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGROP",
+            "dataType": "double",
+            "lineageTag": "dc386e1f-0f28-4094-ba81-14b5d262959d",
+            "sourceColumn": "RAISEREGROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "89e6c17c-1b6a-4055-9b42-1dd0d47b8657",
+            "sourceColumn": "RAISEREGAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECRRP",
+            "dataType": "double",
+            "lineageTag": "63ac5f0e-0af7-453a-a0e7-8dcaf83719a4",
+            "sourceColumn": "LOWER6SECRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECROP",
+            "dataType": "double",
+            "lineageTag": "6ca53316-258a-4636-818b-31c833735615",
+            "sourceColumn": "LOWER6SECROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "02b0ef2d-ade6-4542-812a-cba4769f464b",
+            "sourceColumn": "LOWER6SECAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECRRP",
+            "dataType": "double",
+            "lineageTag": "7fce8e8e-5c80-4984-afa7-d3ab1df1e18e",
+            "sourceColumn": "LOWER60SECRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECROP",
+            "dataType": "double",
+            "lineageTag": "6355a940-a9c6-49cf-a96c-6a2f7c951f7d",
+            "sourceColumn": "LOWER60SECROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "0e5c3951-01eb-4c3c-a102-62069c382801",
+            "sourceColumn": "LOWER60SECAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINRRP",
+            "dataType": "double",
+            "lineageTag": "09cb1289-86d1-4d45-9b96-dd8bba189882",
+            "sourceColumn": "LOWER5MINRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINROP",
+            "dataType": "double",
+            "lineageTag": "0c2cb855-afd0-4e41-80c4-438c2e9a94fb",
+            "sourceColumn": "LOWER5MINROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "288fb6da-d242-44bd-b44b-67005a786a89",
+            "sourceColumn": "LOWER5MINAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGRRP",
+            "dataType": "double",
+            "lineageTag": "328e8ed0-4874-445b-a1a7-9d2cbb4c237c",
+            "sourceColumn": "LOWERREGRRP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGROP",
+            "dataType": "double",
+            "lineageTag": "21482466-597d-46ec-8337-f70474852c83",
+            "sourceColumn": "LOWERREGROP",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGAPCFLAG",
+            "dataType": "double",
+            "lineageTag": "5b57adfb-1664-4f0c-bf2a-fccddb477516",
+            "sourceColumn": "LOWERREGAPCFLAG",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "368945c4-fc8b-4d1c-8c75-9767cd61b2f8",
+            "sourceColumn": "RAISE6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "a7f7c7cb-e4e2-461d-8e1a-39aebe3aacc2",
+            "sourceColumn": "RAISE60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISE5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "2fa458d6-1595-4f08-81c9-660cc182749a",
+            "sourceColumn": "RAISE5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAISEREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "f46c697f-c89b-4fca-92de-6b536afcd9a8",
+            "sourceColumn": "RAISEREGACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER6SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "90dbd430-d9b1-41b8-a2fb-d60fe57913fc",
+            "sourceColumn": "LOWER6SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER60SECACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "ca4b3b82-27c5-47f8-994f-ba56835737db",
+            "sourceColumn": "LOWER60SECACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWER5MINACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "222c779b-0300-47e4-ae99-9de6a87feb5e",
+            "sourceColumn": "LOWER5MINACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LOWERREGACTUALAVAILABILITY",
+            "dataType": "double",
+            "lineageTag": "05ad645f-64a8-4944-a347-84082a13ad50",
+            "sourceColumn": "LOWERREGACTUALAVAILABILITY",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LORSURPLUS",
+            "dataType": "double",
+            "lineageTag": "b0377bd2-e299-4a0d-a718-48b025afca29",
+            "sourceColumn": "LORSURPLUS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LRCSURPLUS",
+            "dataType": "double",
+            "lineageTag": "596d5fff-9e4e-4fe6-b554-50af6e9143f0",
+            "sourceColumn": "LRCSURPLUS",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "file",
+            "dataType": "string",
+            "lineageTag": "8d40f808-feb2-4f9e-ba9b-76b283d65103",
+            "sourceColumn": "file",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fa7ae74c-ac90-45b6-9e9f-8ab91a2b6086",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "61238259-a7a4-49df-80e8-c5ed101a9324",
+        "partitions": [
+          {
+            "name": "price",
+            "mode": "directLake",
+            "source": {
+              "entityName": "price",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      },
+      {
+        "name": "states",
+        "columns": [
+          {
+            "name": "RegionID",
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "74f7448b-30f9-4f9c-b32d-b89d29a4997e",
+            "sourceColumn": "RegionID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "States",
+            "dataType": "string",
+            "lineageTag": "20aabcb6-8030-4329-9f97-ab0261e541ea",
+            "sourceColumn": "States",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c1f34b4a-fa24-4da5-9489-b6c829d9c6d9",
+        "partitions": [
+          {
+            "name": "states",
+            "mode": "directLake",
+            "source": {
+              "entityName": "states",
+              "expressionSource": "DatabaseQuery",
+              "type": "entity"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
