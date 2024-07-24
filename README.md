@@ -16,9 +16,9 @@ https://nemweb.com.au/Reports/CURRENT/
 
 0- Create a Fabric Workspace
 
-1- connect to the github report from Fabric
+1- Fork this repo, and connect to the github report from Fabric
 
-2-Open Notebook 1, attached it to the Lakehouse then run it, new data arrive at 5 am Brisbane time, AEMO keep an archive for 60 days ( add a schedule to keep it updated)
+2-Open Notebook 1, attached it to the Lakehouse then run it, new data will arrive arrive daily at 5 am Brisbane time, AEMO keep an archive for 60 days ( add a schedule to keep it updated)
 
 3-Open Notebook 2, run it, it will rebind the semantic model and the report to the new create Lakehouse
 
@@ -39,8 +39,8 @@ https://nemweb.com.au/Reports/CURRENT/
 
 -	Develop using starter pool, but for production use a single node to reduce capacity usage.
 
--	 Direct don't like too many small files, optimize to get good performance
+-	Direct Lake don't like too many small files, run SQL optimize to get good performance
 
--	 vacuum to remove old snapshots to reduce data storage. 
+-	Vacuum to remove old snapshots to reduce data storage. 
 
 
