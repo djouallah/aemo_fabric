@@ -18,9 +18,9 @@ https://nemweb.com.au/Reports/CURRENT/
 
 1- Fork this repo, and connect to the github report from Fabric
 
-2-Open Notebook 1, attached it to the Lakehouse then run it, new data will arrive arrive daily at 5 am Brisbane time, AEMO keep an archive for 60 days ( add a schedule to keep it updated)
+2-Open Notebook 1, attached it to the Lakehouse (Manual step) then run it,it will genereate the Data, new file arrives daily at 5 am Brisbane time, there is history for 60 days ( add a schedule to keep it updated)
 
-3-Open Notebook 2, run it, it will rebind the semantic model and the report to the new create Lakehouse
+3-Run Notebook 2 , it will rebind the semantic model and the report to the new create Lakehouse
 
 
 <img width="1106" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/0c802002-9478-49bc-b9b4-0bb37c8ce93c">
