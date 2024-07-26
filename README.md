@@ -16,9 +16,12 @@ https://nemweb.com.au/Reports/CURRENT/
 
 1- Create a Fabric Workspace
 
-2- Fork this repo, and connect to the github report from Fabric
+2- Fork this repo, and connect Fabric to it : https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-integration-process?tabs=azure-devops#connect-and-sync
 
-3-Open Notebook Initial Setup, attached it to the Lakehouse storage then run it,it will genereate the Data, and it rebind the semantic model and the report to the new create Lakehouse
+3-Open Notebook Initial Setup, attach the Lakehouse "storage" then run it,it will automatically:
+  1- Attach the lakehouse to the two notebooks
+  2- rebind the semantic model to the new Lakehouse
+  3- rebind the report to the new semantic model
 
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/9d3533b7-4bbc-42dd-b8e7-3dc11b19e571">
 
