@@ -19,13 +19,16 @@ https://nemweb.com.au/Reports/CURRENT/
 2- Fork this repo, and connect Fabric to it : https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-integration-process?tabs=azure-devops#connect-and-sync
 
 3-Open Notebook Initial Setup, attach the Lakehouse "storage" then run it,it will automatically:
-  1- Attach the lakehouse to the two notebooks
-  2- rebind the semantic model to the new Lakehouse
-  3- rebind the report to the new semantic model
+
+  Attach the lakehouse to the two notebooks
+  
+  rebind the semantic model to the new Lakehouse
+  
+  rebind the report to the new semantic model
 
 <img width="1000" alt="image" src="https://github.com/user-attachments/assets/9d3533b7-4bbc-42dd-b8e7-3dc11b19e571">
 
-and here is PowerBI report
+and here is the PowerBI report
 
 
 
