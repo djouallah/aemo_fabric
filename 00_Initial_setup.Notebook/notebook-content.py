@@ -20,6 +20,19 @@
 
 # CELL ********************
 
+default_lakehouse ="storage"
+default_lakehouse_workspace_id = ""
+
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
+# CELL ********************
+
 import requests
 import time
 import json
