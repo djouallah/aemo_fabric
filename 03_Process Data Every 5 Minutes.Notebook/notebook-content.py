@@ -20,7 +20,7 @@
 
 # PARAMETERS CELL ********************
 
-Nbr_Files_to_Download = 1
+Nbr_Files_to_Download = 300
 
 # METADATA ********************
 
@@ -236,8 +236,12 @@ def extract_scada(Path,files_to_upload) :
 
 # CELL ********************
 
-existing_files=spark.sql(""" select distinct file as file from scada where PRIORITY = 0 and year >= 2024 """).toPandas()['file'].tolist()
-len(existing_files)
+from delta.tables import *
+if spark.catalog.tableExists("scada"):
+ existing_files=spark.sql(""" select distinct file as file from scada where PRIORITY = 0 and year >= 2024 """).toPandas()['file'].tolist()
+ len(existing_files)
+else:
+   notebookutils.notebook.exit("wait till the table is written by the first notebook")
 
 # METADATA ********************
 
@@ -310,7 +314,10 @@ def extract_price(Path,files_to_upload) :
 
 # CELL ********************
 
-existing_files=spark.sql('select distinct file as file from price where PRIORITY = 0 and year= 2024').toPandas()['file'].tolist()
+if spark.catalog.tableExists("price"):
+ existing_files=spark.sql('select distinct file as file from price where PRIORITY = 0 and year= 2024').toPandas()['file'].tolist()
+else:
+   notebookutils.notebook.exit("wait till the table is written by the first notebook")
 
 # METADATA ********************
 
@@ -349,11 +356,12 @@ if len(files_to_upload) >0 :
 # CELL ********************
 
 from pyspark.sql.functions import max
-x = spark.sql('describe detail scada').select(max("numFiles")).head()[0]
-print(x)
-if x > 385 :
-    spark.sql('OPTIMIZE scada ' )
-    spark.sql('OPTIMIZE price' )
+if spark.catalog.tableExists("scada"):
+    x = spark.sql('describe detail scada').select(max("numFiles")).head()[0]
+    print(x)
+    if x > 385 :
+        spark.sql('OPTIMIZE scada ' )
+        spark.sql('OPTIMIZE price' )
 
 # METADATA ********************
 

@@ -6,7 +6,13 @@
 # META   "kernel_info": {
 # META     "name": "synapse_pyspark"
 # META   },
-# META   "dependencies": {}
+# META   "dependencies": {
+# META     "lakehouse": {
+# META       "default_lakehouse": "c657e18b-54ce-4b82-8fd9-0907369d5c18",
+# META       "default_lakehouse_name": "storage",
+# META       "default_lakehouse_workspace_id": "f6bfc2ea-3a6e-48a4-980e-7b755bb08af8"
+# META     }
+# META   }
 # META }
 
 # MARKDOWN ********************
@@ -52,15 +58,12 @@ def update_notebook_default_lakehouse(notebook_id_or_name, default_lakehouse, de
     # print(content)
     return notebookutils.notebook.updateDefinition(notebook_id_or_name, content, default_lakehouse, default_lakehouse_workspace_id)
  
-notebook_id_or_name = "Process_Data_Every_24_Hours"
-default_lakehouse = "storage"
-default_lakehouse_workspace_id = ""
-resp = update_notebook_default_lakehouse(notebook_id_or_name, default_lakehouse, default_lakehouse_workspace_id)
-print(resp)
-#############################
-notebook_id_or_name = "Process Data Every 5 Minutes"
-resp = update_notebook_default_lakehouse(notebook_id_or_name, default_lakehouse, default_lakehouse_workspace_id)
-print(resp)
+for notebook_id_or_name in ["Process_Data_Every_24_Hours", "Process Data Every 5 Minutes"] :
+    try: 
+     resp = update_notebook_default_lakehouse(notebook_id_or_name, default_lakehouse, default_lakehouse_workspace_id)
+     print(resp)
+    except:
+     print("probably mounted already")
 
 # METADATA ********************
 
@@ -71,19 +74,7 @@ print(resp)
 
 # CELL ********************
 
-import time
-time.sleep(10)
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
-notebookutils.notebook.run("Process_Data_Every_24_Hours", 2000, {"Nbr_Files_to_Download": 1 })
+notebookutils.notebook.run("Process_Data_Every_24_Hours", 2000,{"Nbr_Files_to_Download": 1 })
 
 # METADATA ********************
 

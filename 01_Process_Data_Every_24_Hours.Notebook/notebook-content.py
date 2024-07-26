@@ -20,7 +20,7 @@
 
 # PARAMETERS CELL ********************
 
-Nbr_Files_to_Download = 1
+Nbr_Files_to_Download = 60
 
 # METADATA ********************
 
