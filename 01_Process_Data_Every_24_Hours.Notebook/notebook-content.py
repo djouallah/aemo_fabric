@@ -8,9 +8,8 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "f0513caf-9762-4f25-ab6d-89cc96814c8b",
-# META       "default_lakehouse_name": "storage",
-# META       "default_lakehouse_workspace_id": "196385fc-590e-4100-a94a-675cb7aa13e6"
+# META       "default_lakehouse_name": "",
+# META       "default_lakehouse_workspace_id": ""
 # META     }
 # META   }
 # META }
@@ -19,9 +18,9 @@
 
 # **<mark>Download from the web</mark>**
 
-# CELL ********************
+# PARAMETERS CELL ********************
 
-Nbr_Files_to_Download = 70
+Nbr_Files_to_Download = 60
 
 # METADATA ********************
 

@@ -2,10 +2,10 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "DataPipeline",
-    "displayName": "scheduler_5minutes"
+    "displayName": "scheduler_daily"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "3529a3b4-4b9a-42af-a0bf-03ac13879654"
+    "logicalId": "e77277ec-e1d2-484b-9920-69c5f42cbfbf"
   }
 }
