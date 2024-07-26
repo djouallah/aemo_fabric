@@ -14,13 +14,11 @@ https://nemweb.com.au/Reports/CURRENT/
 
 ## Howto
 
-0- Create a Fabric Workspace
+1- Create a Fabric Workspace
 
-1- Fork this repo, and connect to the github report from Fabric
+2- Fork this repo, and connect to the github report from Fabric
 
-2-Open Notebook 1, attached it to the Lakehouse (Manual step) then run it,it will genereate the Data, new file arrives daily at 5 am Brisbane time, there is history for 60 days ( add a schedule to keep it updated)
-
-3-Run Notebook 2 , it will rebind the semantic model and the report to the new create Lakehouse
+3-Open Notebook Initial Setup, attached it to the Lakehouse storage then run it,it will genereate the Data, and it rebind the semantic model and the report to the new create Lakehouse
 
 
 <img width="1106" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/0c802002-9478-49bc-b9b4-0bb37c8ce93c">
@@ -31,7 +29,7 @@ https://nemweb.com.au/Reports/CURRENT/
 ## Optional
 
 
-3- Open notebook 3 and attach a lakehouse, turn on the data pipeline scheduler if you want 5 minutes data.
+3- turn on scheduler for 5 minutes and daily, notice daily files get updated at 6 AM Brisbane time.
 
 ## Lessons learnt
 
