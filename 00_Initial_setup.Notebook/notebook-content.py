@@ -14,31 +14,6 @@
 # META   }
 # META }
 
-# CELL ********************
-
-%pip -q install semantic-link-labs
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
-import sempy_labs as labs
-from sempy_labs import migration, report, directlake
-from sempy_labs import lakehouse as lake
-from sempy_labs.tom import connect_semantic_model
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
 # MARKDOWN ********************
 
 # <u>_**Attach Lakehouse**_</u>
@@ -100,7 +75,7 @@ for notebook_id_or_name in ["Process_Data_Every_24_Hours", "Process Data Every 5
      resp = update_notebook_default_lakehouse(notebook_id_or_name, default_lakehouse, default_lakehouse_workspace_id)
      print(resp)
     except:
-     print("mounted already")
+     print("attached already")
 
 # METADATA ********************
 
@@ -112,6 +87,35 @@ for notebook_id_or_name in ["Process_Data_Every_24_Hours", "Process Data Every 5
 # CELL ********************
 
 notebookutils.notebook.run("Process_Data_Every_24_Hours", 2000,{"Nbr_Files_to_Download": 1 })
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
+# MARKDOWN ********************
+
+# <u>_**Update PowerBI**_</u>
+
+# CELL ********************
+
+%pip -q install semantic-link-labs
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
+# CELL ********************
+
+import sempy_labs as labs
+from sempy_labs import migration, report, directlake
+from sempy_labs import lakehouse as lake
+from sempy_labs.tom import connect_semantic_model
 
 # METADATA ********************
 
@@ -145,17 +149,6 @@ labs.directlake.update_direct_lake_model_lakehouse_connection("Semantic_Model", 
 # CELL ********************
 
 labs.refresh_semantic_model("Semantic_Model")
-
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
-notebookutils.notebook.run("Process Data Every 5 Minutes", 2000, {"Nbr_Files_to_Download": 1 })
 
 # METADATA ********************
 
