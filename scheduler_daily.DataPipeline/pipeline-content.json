@@ -17,6 +17,7 @@
         "name": "Notebook1",
         "dependsOn": []
       }
-    ]
+    ],
+    "concurrency": 1
   }
 }
