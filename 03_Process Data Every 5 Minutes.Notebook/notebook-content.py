@@ -8,11 +8,15 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "f0513caf-9762-4f25-ab6d-89cc96814c8b",
+# META       "default_lakehouse": "c657e18b-54ce-4b82-8fd9-0907369d5c18",
 # META       "default_lakehouse_name": "storage",
-# META       "default_lakehouse_workspace_id": "196385fc-590e-4100-a94a-675cb7aa13e6"
-# META     },
-# META     "environment": {}
+# META       "default_lakehouse_workspace_id": "f6bfc2ea-3a6e-48a4-980e-7b755bb08af8",
+# META       "known_lakehouses": [
+# META         {
+# META           "id": "c657e18b-54ce-4b82-8fd9-0907369d5c18"
+# META         }
+# META       ]
+# META     }
 # META   }
 # META }
 
@@ -20,9 +24,9 @@
 
 # **<mark>Download from the web</mark>**
 
-# CELL ********************
+# PARAMETERS CELL ********************
 
-Nbr_Files_to_Download = 700
+Nbr_Files_to_Download = 1
 
 # METADATA ********************
 
