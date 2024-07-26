@@ -20,6 +20,11 @@ https://nemweb.com.au/Reports/CURRENT/
 
 3-Open Notebook Initial Setup, attached it to the Lakehouse storage then run it,it will genereate the Data, and it rebind the semantic model and the report to the new create Lakehouse
 
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/9d3533b7-4bbc-42dd-b8e7-3dc11b19e571">
+
+and here is PowerBI report
+
+
 
 <img width="1106" alt="image" src="https://github.com/djouallah/aemo_fabric/assets/12554469/0c802002-9478-49bc-b9b4-0bb37c8ce93c">
 
