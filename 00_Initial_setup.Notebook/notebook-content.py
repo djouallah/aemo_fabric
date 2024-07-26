@@ -8,8 +8,9 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse_name": "",
-# META       "default_lakehouse_workspace_id": ""
+# META       "default_lakehouse": "7a337084-4296-4d40-85ba-c1767ec46712",
+# META       "default_lakehouse_name": "storage",
+# META       "default_lakehouse_workspace_id": "97db32ec-29de-40ac-a972-369d3f0914f3"
 # META     }
 # META   }
 # META }
