@@ -20,7 +20,7 @@ https://nemweb.com.au/Reports/CURRENT/
 
 3-Open Notebook Initial Setup, attach the Lakehouse "storage" then run it,it will automatically:
 
-  Attach the lakehouse to the two notebooks
+  Attach the lakehouse to the two notebooks, and load data for 1 day, you can change the parameter to 60 days notebookutils.notebook.run("Process_Data_Every_24_Hours", 2000,{"Nbr_Files_to_Download": 1 })
   
   rebind the semantic model to the new Lakehouse
   
