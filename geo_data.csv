@@ -1,0 +1,460 @@
+StationName,Region,FuelSourceDescriptor,DUID,Technology,latitude,longitude,Tech,RegMW,id,TEST,LENGHT,geo,checkgeo
+Adelaide Desalination Plant,SA1,Battery,ADPBA1L,Renewable,,,Storage,,1,1,27, ,93
+"Adelaide Desalination Plant, Battery Unit",SA1,Battery,ADPBA1G,Renewable,,,Storage,,2,1,41, ,93
+Agl Kemps Creek,NSW1,Landfill Methane / Landfill Gas,AGLSITA1,Gas,,,Gas,1,3,1,15, ,93
+Angaston Power Station,SA1,Diesel,ANGAST1,Fuel,-34.50394829,139.0242963,Fuel,50,4,1,22,-34.50394829 139.0242963,1
+Appin Power Plant,NSW1,Waste Coal Mine Gas,APPIN,Coal,-34.210868,150.792711,Coal,55.6,5,1,17,-34.210868 150.792711,1
+Ararat Wind Farm,VIC1,Wind,ARWF1,Renewable,-37.263393,143.082116,Wind,241.59,6,1,16,-37.263393 143.082116,1
+Bairnsdale Power Station,VIC1,Natural Gas,BDL01,Gas,-37.8422305,147.5637253,Gas,47,7,1,24,-37.8422305 147.5637253,2
+Bairnsdale Power Station,VIC1,Natural Gas,BDL02,Gas,-37.8422305,147.5637253,Gas,47,8,1,24,-37.8422305 147.5637253,2
+Baking Board Solar Farm,QLD1,Solar,BAKING1,Renewable,-26.721166,150.55417,Solar,17,9,1,23,-26.721166 150.55417,1
+Bald Hills Wind Farm,VIC1,Wind,BALDHWF1,Renewable,-38.75818898,145.9560624,Wind,106.6,10,1,20,-38.75818898 145.9560624,1
+Ballarat Base Hospital Plant,VIC1,Natural Gas,BBASEHOS,Gas,-37.558774,143.847247,Gas,3,11,1,28,-37.558774 143.847247,1
+Ballarat Battery Storage System,VIC1,Battery,BALBG1,Renewable,-37.567452,143.852741,Storage,30,12,1,31,-37.567452 143.852741,2
+Ballarat Battery Storage System,VIC1,Battery,BALBL1,Renewable,-37.567452,143.852741,Storage,30,13,1,31,-37.567452 143.852741,2
+Bango Wind Farm,NSW1,Wind,BANGOWF1,Renewable,-34.551511,148.732191,Wind,,14,1,15,-34.551511 148.732191,2
+Bango Wind Farm,NSW1,Wind,BANGOWF2,Renewable,-34.551511,148.732191,Wind,,15,1,15,-34.551511 148.732191,2
+Banimboola Power Station,VIC1,Water,BAPS,Renewable,-36.534524,147.459788,Hydro,12.85,16,1,24,-36.534524 147.459788,1
+Bannerton Solar Park,VIC1,Solar,BANN1,Renewable,-34.67263,142.750362,Solar,100,17,1,20,-34.67263 142.750362,1
+Barcaldine Power Station,QLD1,Natural Gas,BARCALDN,Gas,-23.55217058,145.3148512,Gas,37,18,1,24,-23.55217058 145.3148512,1
+Barcaldine Solar Farm,QLD1,Solar,BARCSF1,Renewable,-23.547333,145.318972,Solar,20,19,1,21,-23.547333 145.318972,1
+Barker Inlet Power Station,SA1,Natural Gas,BARKIPS1,Gas,-34.804,138.524,Gas,211,20,1,26,-34.804 138.524,1
+Barron Gorge Power Station,QLD1,Water,BARRON-1,Renewable,-16.85077013,145.6470493,Hydro,30,21,1,26,-16.85077013 145.6470493,2
+Barron Gorge Power Station,QLD1,Water,BARRON-2,Renewable,-16.85077013,145.6470493,Hydro,30,22,1,26,-16.85077013 145.6470493,2
+Basslink HVDC Link,TAS1,Link,BLNKTAS,Link,,,Link,478,23,1,18, ,93
+Basslink HVDC Link,VIC1,Link,BLNKVIC,Link,,,Link,594,24,1,18, ,93
+Bastyan Power Station,TAS1,Water,BASTYAN,Renewable,-41.73623091,145.5315885,Hydro,79.9,25,1,21,-41.73623091 145.5315885,1
+Bayswater Power Station,NSW1,Black Coal,BW01,Coal,-32.39350179,150.953963,Coal,660,26,1,23,-32.39350179 150.953963,4
+Bayswater Power Station,NSW1,Black Coal,BW02,Coal,-32.39350179,150.953963,Coal,660,27,1,23,-32.39350179 150.953963,4
+Bayswater Power Station,NSW1,Black Coal,BW03,Coal,-32.39350179,150.953963,Coal,660,28,1,23,-32.39350179 150.953963,4
+Bayswater Power Station,NSW1,Black Coal,BW04,Coal,-32.39350179,150.953963,Coal,660,29,1,23,-32.39350179 150.953963,4
+Bell Bay Three Power Station,TAS1,Natural Gas,BBTHREE1,Gas,-41.13932356,146.9055218,Gas,35,30,1,28,-41.13932356 146.9055218,4
+Bell Bay Three Power Station,TAS1,Natural Gas,BBTHREE2,Gas,-41.13932356,146.9055218,Gas,35,31,1,28,-41.13932356 146.9055218,4
+Bell Bay Three Power Station,TAS1,Natural Gas,BBTHREE3,Gas,-41.13932356,146.9055218,Gas,35,32,1,28,-41.13932356 146.9055218,4
+Bell Bay Three Power Station,TAS1,Natural Gas,TVPP104,Gas,-41.13932356,146.9055218,Gas,58,33,1,28,-41.13932356 146.9055218,4
+Berrybank Wind Farm,VIC1,Wind,BRYB1WF1,Renewable,,,Wind,,34,1,19, ,93
+Beryl Solar Farm,NSW1,Solar,BERYLSF1,Renewable,-32.347501,149.460738,Solar,98,35,1,16,-32.347501 149.460738,1
+Blowering Power Station,NSW1,Water,BLOWERNG,Renewable,-35.39740214,148.2472251,Hydro,80,36,1,23,-35.39740214 148.2472251,1
+Boco Rock Wind Farm,NSW1,Wind,BOCORWF1,Renewable,-36.57452676,149.1248629,Wind,113.18,37,1,19,-36.57452676 149.1248629,1
+Bodangora Wind Farm,NSW1,Wind,BODWF1,Renewable,-32.407128,149.04133,Wind,113.19,38,1,19,-32.407128 149.04133,1
+Bogong / Mackay Power Station,VIC1,Water,MCKAY1,Renewable,-36.80547095,147.2278447,Hydro,,39,1,29,-36.80547095 147.2278447,1
+Bomen Solar Farm,NSW1,Solar,BOMENSF1,Renewable,,,Solar,,40,1,16, ,93
+Braemar 2 Power Station,QLD1,Coal Seam Methane,BRAEMAR5,Coal,-27.10987267,150.9076533,Coal,173,41,1,23,-27.10987267 150.9076533,3
+Braemar 2 Power Station,QLD1,Coal Seam Methane,BRAEMAR6,Coal,-27.10987267,150.9076533,Coal,173,42,1,23,-27.10987267 150.9076533,3
+Braemar 2 Power Station,QLD1,Coal Seam Methane,BRAEMAR7,Coal,-27.10987267,150.9076533,Coal,173,43,1,23,-27.10987267 150.9076533,3
+Braemar Power Station,QLD1,Coal Seam Methane,BRAEMAR1,Coal,-27.11166878,150.9076475,Coal,168,44,1,21,-27.11166878 150.9076475,3
+Braemar Power Station,QLD1,Coal Seam Methane,BRAEMAR2,Coal,-27.11166878,150.9076475,Coal,168,45,1,21,-27.11166878 150.9076475,3
+Braemar Power Station,QLD1,Coal Seam Methane,BRAEMAR3,Coal,-27.11166878,150.9076475,Coal,168,46,1,21,-27.11166878 150.9076475,3
+Broadmeadows Landfill Gas Power Station,VIC1,Landfill Methane / Landfill Gas,BROADMDW,Gas,,,Gas,5,47,1,39, ,93
+Broadwater Power Station,NSW1,Bagasse,BWTR1,Renewable,-29.016483,153.445756,Other,38,48,1,24,-29.016483 153.445756,1
+Broken Hill Gas Turbines,NSW1,Diesel,GB01,Fuel,-31.98631319,141.42062,Fuel,50,49,1,24,-31.98631319 141.42062,1
+Broken Hill Solar Plant,NSW1,Solar,BROKENH1,Renewable,-31.988905,141.391547,Solar,53.76,50,1,23,-31.988905 141.391547,1
+Brooklyn LFG U1-3,VIC1,Landfill Methane / Landfill Gas,BROOKLYN,Gas,,,Gas,2.83,51,1,17, ,93
+Brown Mountain Hydro Power Station,NSW1,Water,BROWNMT,Renewable,-36.594993,149.473997,Hydro,5,52,1,34,-36.594993 149.473997,1
+Browns Plains Landfill Gas PS,QLD1,Landfill Methane / Landfill Gas,BPLANDF1,Gas,,,Gas,2,53,1,29, ,93
+Bulgana Green Power Hub - Battery Units,VIC1,Battery,BULBESL1,Renewable,,,Storage,,54,1,39, ,93
+Bulgana GreenPowerHub WF,VIC1,Wind,BULGANA1,Renewable,,,Wind,,55,1,24,,0
+Bulgana Green Power Hub - Battery Units,VIC1,Battery,BULBESG1,Renewable,,,Storage,,56,1,39,,
+Bungala One Solar Farm,SA1,Solar,BNGSF1,Renewable,-32.423316,137.841798,Solar,135,57,1,22,-32.423316 137.841798,1
+Bungala Two Solar Farm,SA1,Solar,BNGSF2,Renewable,-32.406993,137.840933,Solar,135,58,1,22,-32.406993 137.840933,1
+Burrendong Hydro Power Station,NSW1,Water,BDONGHYD,Renewable,,,Hydro,19,59,1,30, ,93
+Burrinjuck Hydro Power Station,NSW1,Water,BURRIN,Renewable,,,Hydro,27,60,1,30, ,93
+Butlers Gorge Power Station,TAS1,Water,BUTLERSG,Renewable,-42.26710663,146.2621267,Hydro,14.4,61,1,27,-42.26710663 146.2621267,1
+Callide C Nett Off,QLD1,Black Coal,CPP_3,Coal,-24.347222,150.608611,Coal,420,62,1,18,-24.347222 150.608611,2
+Callide C Nett Off,QLD1,Black Coal,CPP_4,Coal,-24.347222,150.608611,Coal,420,63,1,18,-24.347222 150.608611,2
+Callide Power Station,QLD1,Black Coal,CALL_A_4,Coal,-24.33316877,150.6263216,Coal,30,64,1,21,-24.33316877 150.6263216,3
+Callide Power Station,QLD1,Black Coal,CALL_B_1,Coal,-24.33316877,150.6263216,Coal,350,65,1,21,-24.33316877 150.6263216,3
+Callide Power Station,QLD1,Black Coal,CALL_B_2,Coal,-24.33316877,150.6263216,Coal,350,66,1,21,-24.33316877 150.6263216,3
+Canunda Wind Farm,SA1,Wind,CNUNDAWF,Renewable,-37.69830278,140.3836333,Wind,46,67,1,17,-37.69830278 140.3836333,1
+Capital East Solar Farm,NSW1,Solar,CESF1,Renewable,-35.180684,149.546482,Solar,0.205,68,1,23,-35.180684 149.546482,1
+Capital Wind Farm,NSW1,Wind,CAPTL_WF,Renewable,-35.1235342,149.5002488,Wind,140,69,1,17,-35.1235342 149.5002488,1
+Catagunya/Liapootah/Wayatinah PS,TAS1,Water,LI_WY_CA,Renewable,-42.37613118,146.5098241,Hydro,173.7,70,1,32,-42.37613118 146.5098241,1
+Cathedral Rocks,SA1,Wind,CATHROCK,Renewable,-34.84874114,135.5926489,Wind,66,71,1,15,-34.84874114 135.5926489,1
+Cattle Hill Wind Farm,TAS1,Wind,CTHLWF1,Renewable,-42.151,146.688,Wind,148,72,1,21,-42.151 146.688,1
+Cethana Power Station,TAS1,Water,CETHANA,Renewable,-41.47985179,146.134472,Hydro,85,73,1,21,-41.47985179 146.134472,1
+Challicum Hills Wind Farm,VIC1,Wind,CHALLHWF,Renewable,-37.39546597,143.1045904,Wind,52.5,74,1,25,-37.39546597 143.1045904,1
+Chepstowe Wind Farm,VIC1,Wind,CHPSTWF1,Renewable,-37.596503,143.499582,Wind,6.15,75,1,19,-37.596503 143.499582,1
+Cherry Tree Wind Farm,VIC1,Wind,CHYTWF1,Renewable,,,Wind,,76,1,21,,0
+Childers Solar Farm,QLD1,Solar,CHILDSF1,Renewable,-25.295027,152.403674,Solar,64.38,77,1,19,-25.295027 152.403674,1
+Clare Solar Farm,QLD1,Solar,CLARESF1,Renewable,-19.83977,147.21055,Solar,110.262,78,1,16,-19.83977 147.21055,1
+Clayton Landfill Gas Power Station,VIC1,Landfill Methane / Landfill Gas,CLAYTON,Gas,,,Gas,11,79,1,34, ,93
+Clements Gap Wind Farm,SA1,Wind,CLEMGPWF,Renewable,-33.48977319,138.1116949,Wind,57,80,1,22,-33.48977319 138.1116949,1
+Clermont Solar Farm,QLD1,Solar,CLERMSF1,Renewable,-22.8394058,147.5460307,Solar,92.5,81,1,19,-22.8394058 147.5460307,1
+Clover Power Station,VIC1,Water,CLOVER,Renewable,-36.78515024,147.2195169,Hydro,29,82,1,20,-36.78515024 147.2195169,1
+Cluny Power Station,TAS1,Water,CLUNY,Renewable,-42.50622857,146.6811229,Hydro,19,83,1,19,-42.50622857 146.6811229,1
+Codrington Wind Farm,VIC1,Wind,CODRNGTON,Renewable,-38.28287469,141.9549602,Wind,18.2,84,1,20,-38.28287469 141.9549602,1
+Cohuna Solar Farm,VIC1,Solar,COHUNSF1,Renewable,,,Solar,,85,1,17, ,93
+Coleambally Solar Farm,NSW1,Solar,COLEASF1,Renewable,-34.759494,145.92984,Solar,180,86,1,22,-34.759494 145.92984,1
+Collector Wind Farm 1,NSW1,Wind,COLWF01,Renewable,,,Wind,,87,1,21, ,93
+Collinsville Solar PV Power Station,QLD1,Solar,CSPVPS1,Renewable,-20.55714,147.820552,Solar,42,88,1,35,-20.55714 147.820552,1
+Colongra Power Station,NSW1,Natural Gas,CG1,Gas,-33.20878096,151.54354,Gas,181,89,1,22,-33.20878096 151.54354,4
+Colongra Power Station,NSW1,Natural Gas,CG2,Gas,-33.20878096,151.54354,Gas,181,90,1,22,-33.20878096 151.54354,4
+Colongra Power Station,NSW1,Natural Gas,CG3,Gas,-33.20878096,151.54354,Gas,181,91,1,22,-33.20878096 151.54354,4
+Colongra Power Station,NSW1,Natural Gas,CG4,Gas,-33.20878096,151.54354,Gas,181,92,1,22,-33.20878096 151.54354,4
+Condamine Power Station A,QLD1,Natural Gas,CPSA,Gas,-26.66667293,150.2685812,Gas,143,93,1,25,-26.66667293 150.2685812,1
+Condong Power Station,NSW1,Bagasse,CONDONG1,Renewable,-28.314766,153.433808,Other,30,94,1,21,-28.314766 153.433808,1
+Coonooer Bridge Wind Farm,VIC1,Wind,CBWF1,Renewable,-36.472722,143.322039,Wind,19.8,95,1,25,-36.472722 143.322039,1
+Coopers Gap Wind Farm,QLD1,Wind,COOPGWF1,Renewable,-26.7170038,151.4491769,Wind,174,96,1,21,-26.7170038 151.4491769,1
+Copeton Hydro Power Station,NSW1,Water,COPTNHYD,Renewable,,,Hydro,22.5,97,1,27, ,93
+Corio Landfill Gas Power Station,VIC1,Landfill Methane / Landfill Gas,CORIO1,Gas,,,Gas,1,98,1,32, ,93
+Corowa Solar Farm,NSW1,Solar,CRWASF1,Renewable,,,Solar,,99,1,17, ,93
+Crookwell 2 Wind Farm,NSW1,Wind,CROOKWF2,Renewable,-34.547676,149.589254,Wind,96.04,100,1,21,-34.547676 149.589254,1
+Crowlands Wind Farm,VIC1,Wind,CROWLWF1,Renewable,-36.97615,143.097998,Wind,79.95,101,1,19,-36.97615 143.097998,1
+Crudine Ridge Wind Farm,NSW1,Wind,CRURWF1,Renewable,,,Wind,,102,1,23, ,93
+Cullerin Range Wind Farm,NSW1,Wind,CULLRGWF,Renewable,-34.75099457,149.3810268,Wind,30,103,1,24,-34.75099457 149.3810268,1
+Daandine Power Station,QLD1,Coal Seam Methane,DAANDINE,Coal,-27.08629437,150.9425277,Coal,33,104,1,22,-27.08629437 150.9425277,1
+Dalrymple North Battery StorageSystem,SA1,Battery,DALNTH01,Renewable,-34.888446,137.758114,Storage,30,105,1,37,-34.888446 137.758114,2
+Dalrymple North Battery StorageSystem,SA1,Battery,DALNTHL1,Renewable,-34.888446,137.758114,Storage,30,106,1,37,-34.888446 137.758114,2
+Darling Downs Power Station,QLD1,Natural Gas,DDPS1,Gas,-27.11685128,150.8953913,Gas,,107,1,27,-27.11685128 150.8953913,1
+Darling Downs Solar Farm,QLD1,Solar,DDSF1,Renewable,-27.112,150.8819,Solar,121,108,1,24,-27.112 150.8819,1
+Darlington Point Solar Farm,NSW1,Solar,DARLSF1,Renewable,-34.64679,146.03409,Solar,,109,1,27,-34.64679 146.03409,1
+Dartmouth Power Station,VIC1,Water,DARTM1,Renewable,-36.55528977,147.5198723,Hydro,185,110,1,23,-36.55528977 147.5198723,1
+Daydream Solar Farm,QLD1,Solar,DAYDSF1,Renewable,-20.512804,147.691968,Solar,79.75,111,1,19,-20.512804 147.691968,2
+Daydream Solar Farm,QLD1,Solar,DAYDSF2,Renewable,-20.512804,147.691968,Solar,88,112,1,19,-20.512804 147.691968,2
+Devils Gate Power Station,TAS1,Water,DEVILS_G,Renewable,-41.34992471,146.262709,Hydro,60,113,1,25,-41.34992471 146.262709,1
+Dry Creek Gas Turbine Station,SA1,Natural Gas,DRYCGT1,Gas,-34.84729318,138.582297,Gas,52,114,1,29,-34.84729318 138.582297,3
+Dry Creek Gas Turbine Station,SA1,Natural Gas,DRYCGT2,Gas,-34.84729318,138.582297,Gas,52,115,1,29,-34.84729318 138.582297,3
+Dry Creek Gas Turbine Station,SA1,Natural Gas,DRYCGT3,Gas,-34.84729318,138.582297,Gas,52,116,1,29,-34.84729318 138.582297,3
+Dundonnell Wind Farm,VIC1,Wind,DUNDWF1,Renewable,,,Wind,,117,1,20, ,93
+Dundonnell Wind Farm,VIC1,Wind,DUNDWF2,Renewable,,,Wind,,118,1,20, ,93
+Dundonnell Wind Farm,VIC1,Wind,DUNDWF3,Renewable,,,Wind,,119,1,20, ,93
+Eastern Creek LFG PS Units 1-4,NSW1,Landfill Methane / Landfill Gas,EASTCRK,Gas,,,Gas,5.056,120,1,30, ,93
+Eildon Power Station,VIC1,Water,EILDON1,Renewable,-37.22126231,145.920966,Hydro,60,121,1,20,-37.22126231 145.920966,3
+Eildon Power Station,VIC1,Water,EILDON2,Renewable,-37.22126231,145.920966,Hydro,60,122,1,20,-37.22126231 145.920966,3
+Eildon Power Station,VIC1,Water,EILDON3,Renewable,-37.22126231,145.920966,Hydro,4.5,123,1,20,-37.22126231 145.920966,3
+Elaine Wind Farm,VIC1,Wind,ELAINWF1,Renewable,,,Wind,,124,1,16, ,93
+Emerald Solar Park,QLD1,Solar,EMERASF1,Renewable,-23.50879,148.128017,Solar,88,125,1,18,-23.50879 148.128017,1
+Eraring Power Station,NSW1,Black Coal,ER01,Coal,-33.06154805,151.5246123,Coal,720,126,1,21,-33.06154805 151.5246123,5
+Eraring Power Station,NSW1,Black Coal,ER02,Coal,-33.06154805,151.5246123,Coal,720,127,1,21,-33.06154805 151.5246123,5
+Eraring Power Station,NSW1,Black Coal,ER03,Coal,-33.06154805,151.5246123,Coal,720,128,1,21,-33.06154805 151.5246123,5
+Eraring Power Station,NSW1,Black Coal,ER04,Coal,-33.06154805,151.5246123,Coal,720,129,1,21,-33.06154805 151.5246123,5
+Eraring Power Station,NSW1,Diesel,ERGT01,Fuel,-33.06154805,151.5246123,Fuel,41.5,130,1,21,-33.06154805 151.5246123,5
+Finley Solar Farm,NSW1,Solar,FINLYSF1,Renewable,-35.64421,145.508644,Solar,162.36,131,1,17,-35.64421 145.508644,1
+Fisher Power Station,TAS1,Water,FISHER,Renewable,-41.67266234,146.2687394,Hydro,43.2,132,1,20,-41.67266234 146.2687394,1
+Gannawarra Energy Storage System,VIC1,Battery,GANNBG1,Renewable,-35.735056,143.779462,Storage,30.875,133,1,32,-35.735056 143.779462,2
+Gannawarra Energy Storage System,VIC1,Battery,GANNBL1,Renewable,-35.735056,143.779462,Storage,30.875,134,1,32,-35.735056 143.779462,2
+Gannawarra Solar Farm,VIC1,Solar,GANNSF1,Renewable,-35.73,143.7711,Solar,55,135,1,21,-35.73 143.7711,1
+German Creek Power Station,QLD1,Waste Coal Mine Gas,GERMCRK,Coal,-22.928526,148.549097,Coal,44.976,136,1,26,-22.928526 148.549097,1
+Gladstone Power Station,QLD1,Black Coal,GSTONE1,Coal,-23.84874103,151.2207867,Coal,280,137,1,23,-23.84874103 151.2207867,6
+Gladstone Power Station,QLD1,Black Coal,GSTONE2,Coal,-23.84874103,151.2207867,Coal,280,138,1,23,-23.84874103 151.2207867,6
+Gladstone Power Station,QLD1,Black Coal,GSTONE3,Coal,-23.84874103,151.2207867,Coal,280,139,1,23,-23.84874103 151.2207867,6
+Gladstone Power Station,QLD1,Black Coal,GSTONE4,Coal,-23.84874103,151.2207867,Coal,280,140,1,23,-23.84874103 151.2207867,6
+Gladstone Power Station,QLD1,Black Coal,GSTONE5,Coal,-23.84874103,151.2207867,Coal,280,141,1,23,-23.84874103 151.2207867,6
+Gladstone Power Station,QLD1,Black Coal,GSTONE6,Coal,-23.84874103,151.2207867,Coal,280,142,1,23,-23.84874103 151.2207867,6
+Glenbawn Hydro Power Station,NSW1,Water,GLBWNHYD,Renewable,,,Hydro,5.5,143,1,28, ,93
+Glenmaggie Hydro Power Station,VIC1,Water,GLENMAG1,Renewable,,,Hydro,3.8,144,1,30, ,93
+Glennies Creek Power Station,NSW1,Waste Coal Mine Gas,GLENNCRK,Coal,-32.464343,151.130432,Coal,12.78,145,1,28,-32.464343 151.130432,1
+Glenrowan West Solar Farm,VIC1,Solar,GLRWNSF1,Renewable,-36.4880158,146.1455085,Solar,,146,1,25,-36.4880158 146.1455085,1
+Goonumbla Solar Farm,NSW1,Solar,GOONSF1,Renewable,,,Solar,,147,1,20,,0
+Gordon Power Station,TAS1,Water,GORDON,Renewable,-42.74015707,145.9833753,Hydro,432,148,1,20,-42.74015707 145.9833753,1
+Grange Avenue Landfill Gas Power Station,NSW1,Landfill Methane / Landfill Gas,GRANGEAV,Gas,,,Gas,2,149,1,40, ,93
+Granville Harbour Wind Farm,TAS1,Wind,GRANWF1,Renewable,-41.802,145.056,Wind,110,150,1,27,-41.802 145.056,1
+Griffith Solar Farm,NSW1,Solar,GRIFSF1,Renewable,-34.317414,146.120739,Solar,27.2,151,1,19,-34.317414 146.120739,1
+Grosvenor 1 Waste Coal Mine Gas PowerStation,QLD1,Waste Coal Mine Gas,GROSV1,Coal,,,Coal,21.287,152,1,44, ,93
+Grosvenor 2,QLD1,Waste Coal Mine Gas,GROSV2,Coal,,,Coal,15.205,153,1,11, ,93
+Gullen Range Solar Farm,NSW1,Solar,GULLRSF1,Renewable,-34.62451156,149.4585489,Solar,10,154,1,23,-34.62451156 149.4585489,1
+Gullen Range Wind Farm,NSW1,Wind,GULLRWF1,Renewable,-34.62451156,149.4585486,Wind,165.5,155,1,22,-34.62451156 149.4585486,2
+Gullen Range Wind Farm,NSW1,Wind,GULLRWF2,Renewable,-34.62451156,149.4585486,Wind,,156,1,22,-34.62451156 149.4585486,2
+Gunnedah Solar Farm,NSW1,Solar,GNNDHSF1,Renewable,,,Solar,,157,1,19, ,93
+Gunning Wind Farm,NSW1,Wind,GUNNING1,Renewable,-34.67636075,149.6644302,Wind,46.5,158,1,17,-34.67636075 149.6644302,1
+Guthega Power Station,NSW1,Water,GUTHEGA,Renewable,-36.34977248,148.4140302,Hydro,60,159,1,21,-36.34977248 148.4140302,1
+Hallam Road Renewable Energy Facility,VIC1,Landfill Methane / Landfill Gas,HALAMRD1,Gas,,,Gas,8.984,160,1,37, ,93
+Hallett 1 Wind Farm,SA1,Wind,HALLWF1,Renewable,-33.3284341,138.7046687,Wind,94.5,161,1,19,-33.3284341 138.7046687,1
+Hallett 2 Wind Farm,SA1,Wind,HALLWF2,Renewable,-33.53821029,138.8572146,Wind,71.4,162,1,19,-33.53821029 138.8572146,1
+Hallett Power Station,SA1,Natural Gas / Diesel,AGLHAL,Gas,-33.34931024,138.7526328,Gas,217,163,1,21,-33.34931024 138.7526328,1
+Hamilton Solar Farm,QLD1,Solar,HAMISF1,Renewable,-20.468593,147.799484,Solar,57.5,164,1,19,-20.468593 147.799484,1
+Haughton Solar Farm Stage 1,QLD1,Solar,HAUGHT11,Renewable,-19.732168,147.076136,Solar,132,165,1,27,-19.732168 147.076136,1
+Hayman Solar Farm,QLD1,Solar,HAYMSF1,Renewable,-20.536162,147.846065,Solar,57.75,166,1,17,-20.536162 147.846065,1
+Hepburn Community Wind Farm,VIC1,Wind,HEPWIND1,Renewable,,,Wind,4.1,167,1,27, ,93
+Hornsdale Power Reserve,SA1,Wind,HPRG1,Renewable,-33.085519,138.521914,Wind,100,168,1,23,-33.085519 138.521914,2
+Hornsdale Power Reserve,SA1,Wind,HPRL1,Renewable,-33.085519,138.521914,Wind,79.982,169,1,23,-33.085519 138.521914,2
+Hornsdale Wind Farm,SA1,Wind,HDWF1,Renewable,-33.05982,138.537671,Wind,102.4,170,1,19,-33.05982 138.537671,1
+Hornsdale Wind Farm 2,SA1,Wind,HDWF2,Renewable,-33.05982,138.537672,Wind,102.4,171,1,21,-33.05982 138.537672,1
+Hornsdale Wind Farm 3,SA1,Wind,HDWF3,Renewable,-33.05982,138.537673,Wind,112,172,1,21,-33.05982 138.537673,1
+Hughenden Solar Farm,QLD1,Solar,HUGSF1,Renewable,-19.732168,147.076137,Solar,20.97,173,1,20,-19.732168 147.076137,1
+Hume (NSW) Hydro Power Station,NSW1,Water,HUMENSW,Renewable,-36.10638251,147.0322634,Hydro,29,174,1,30,-36.10638251 147.0322634,1
+Hume (Vic) Hydro Power Station,VIC1,Water,HUMEV,Renewable,-36.106887,147.032572,Hydro,29,175,1,30,-36.106887 147.032572,1
+Hunter Valley Gas Turbine,NSW1,Kerosene,HVGTS,Fuel,-32.38998919,150.9659629,Fuel,50,176,1,25,-32.38998919 150.9659629,1
+Invicta Sugar Mill,QLD1,Bagasse,INVICTA,Renewable,-19.51579031,147.1065305,Other,50.3,177,1,18,-19.51579031 147.1065305,1
+ISIS Central Sugar Mill Co-generation Plant,QLD1,Bagasse,ICSM,Renewable,,,Other,25,178,1,43, ,93
+Jacks Gully Landfill Gas Power Station,NSW1,Landfill Methane / Landfill Gas,JACKSGUL,Gas,,,Gas,2.3,179,1,38, ,93
+"Jeeralang ""A"" Power Station",VIC1,Natural Gas,JLA01,Gas,-38.27511122,146.4270464,Gas,51,180,1,27,-38.27511122 146.4270464,4
+"Jeeralang ""A"" Power Station",VIC1,Natural Gas,JLA02,Gas,-38.27511122,146.4270464,Gas,51,181,1,27,-38.27511122 146.4270464,4
+"Jeeralang ""A"" Power Station",VIC1,Natural Gas,JLA03,Gas,-38.27511122,146.4270464,Gas,51,182,1,27,-38.27511122 146.4270464,4
+"Jeeralang ""A"" Power Station",VIC1,Natural Gas,JLA04,Gas,-38.27511122,146.4270464,Gas,51,183,1,27,-38.27511122 146.4270464,4
+"Jeeralang ""B"" Power Station",VIC1,Natural Gas,JLB01,Gas,-38.27384456,146.4248265,Gas,76,184,1,27,-38.27384456 146.4248265,3
+"Jeeralang ""B"" Power Station",VIC1,Natural Gas,JLB02,Gas,-38.27384456,146.4248265,Gas,76,185,1,27,-38.27384456 146.4248265,3
+"Jeeralang ""B"" Power Station",VIC1,Natural Gas,JLB03,Gas,-38.27384456,146.4248265,Gas,76,186,1,27,-38.27384456 146.4248265,3
+Jemalong Solar Project  ,NSW1,Solar,JEMALNG1,Renewable,,,Solar,,187,1,24, ,93
+Jindabyne Small Hydro Power Station,NSW1,Water,JNDABNE1,Renewable,,,Hydro,1.1,188,1,35, ,93
+John Butters Power Station,TAS1,Water,JBUTTERS,Renewable,-42.15589019,145.5365084,Hydro,144,189,1,26,-42.15589019 145.5365084,1
+Jounama Small Hydro Power Station,NSW1,Water,JOUNAMA1,Renewable,,,Hydro,14,190,1,33, ,93
+Junee Solar Farm,NSW1,Solar,JUNEESF1,Renewable,,,Solar,,191,1,16, ,93
+Karadoc Solar Farm,VIC1,Solar,KARSF1,Renewable,-34.227904,142.28033,Solar,104,192,1,18,-34.227904 142.28033,1
+Kareeya Power Station,QLD1,Water,KAREEYA1,Renewable,-17.76645582,145.5768844,Hydro,21,193,1,21,-17.76645582 145.5768844,5
+Kareeya Power Station,QLD1,Water,KAREEYA2,Renewable,-17.76645582,145.5768844,Hydro,21,194,1,21,-17.76645582 145.5768844,5
+Kareeya Power Station,QLD1,Water,KAREEYA3,Renewable,-17.76645582,145.5768844,Hydro,21,195,1,21,-17.76645582 145.5768844,5
+Kareeya Power Station,QLD1,Water,KAREEYA4,Renewable,-17.76645582,145.5768844,Hydro,21,196,1,21,-17.76645582 145.5768844,5
+Kareeya Power Station,QLD1,Water,KAREEYA5,Renewable,-17.76645582,145.5768844,Hydro,7,197,1,21,-17.76645582 145.5768844,5
+Keepit Hydro Power Station,NSW1,Water,KEEPIT,Renewable,,,Hydro,6,198,1,26, ,93
+Kennedy Energy Park Battery Units,QLD1,Battery,KEPBG1,Renewable,,,Storage,,199,1,33, ,93
+Kennedy Energy Park Solar,QLD1,Solar,KEPSF1,Renewable,,,Solar,,200,1,25, ,93
+Kennedy Energy Park Wind,QLD1,Wind,KEPWF1,Renewable,,,Wind,,201,1,24, ,93
+Kiamal Solar Farm,VIC1,Solar,KIAMSF1,Renewable,,,Solar,,202,1,17, ,93
+Kiata Wind Farm,VIC1,Wind,KIATAWF1,Renewable,-36.397693,141.746827,Wind,31.05,203,1,15,-36.397693 141.746827,1
+Kidston Solar Project,QLD1,Solar,KSP1,Renewable,-18.88,144.151,Solar,50,204,1,21,-18.88 144.151,1
+Kincumber Landfill Site,NSW1,Landfill Methane / Landfill Gas,KINCUM1,Gas,,,Gas,1.064,205,1,23, ,93
+Kogan Creek Power Station,QLD1,Black Coal,KPP_1,Coal,-26.915285,150.7489475,Coal,744,206,1,25,-26.915285 150.7489475,1
+Ladbroke Grove Power Station,SA1,Natural Gas,LADBROK1,Gas,-37.45618317,140.7826992,Gas,40,207,1,28,-37.45618317 140.7826992,2
+Ladbroke Grove Power Station,SA1,Natural Gas,LADBROK2,Gas,-37.45618317,140.7826992,Gas,40,208,1,28,-37.45618317 140.7826992,2
+Lake Bonney BESS1,SA1,Battery,LBBG1,Renewable,-37.7387871,140.3846721,Storage,25,209,1,17,-37.7387871 140.3846721,2
+Lake Bonney BESS1,SA1,Battery,LBBL1,Renewable,-37.7387871,140.3846721,Storage,25,210,1,17,-37.7387871 140.3846721,2
+Lake Bonney Stage 2 Windfarm,SA1,Wind,LKBONNY2,Renewable,-37.76050438,140.4055412,Wind,159,211,1,28,-37.76050438 140.4055412,1
+Lake Bonney Stage 3 Wind Farm,SA1,Wind,LKBONNY3,Renewable,-37.76050438,140.4055413,Wind,39,212,1,29,-37.76050438 140.4055413,1
+Lake Bonney Wind Farm Stage 1,SA1,Wind,LKBONNY1,Renewable,-37.76050438,140.4055411,Wind,80.5,213,1,29,-37.76050438 140.4055411,1
+Lake Echo Power Station,TAS1,Water,LK_ECHO,Renewable,-42.25333893,146.6205148,Hydro,32.4,214,1,23,-42.25333893 146.6205148,1
+Laverton North Power Station,VIC1,Natural Gas,LNGS1,Gas,-37.8416933,144.7880062,Gas,156,215,1,28,-37.8416933 144.7880062,2
+Laverton North Power Station,VIC1,Natural Gas,LNGS2,Gas,-37.8416933,144.7880062,Gas,156,216,1,28,-37.8416933 144.7880062,2
+Lemonthyme / Wilmot Power Station,TAS1,Water,LEM_WIL,Renewable,-41.48313525,146.1253375,Hydro,81.6,217,1,33,-41.48313525 146.1253375,1
+Liddell Power Station,NSW1,Black Coal,LD01,Coal,-32.36902679,150.9801122,Coal,500,218,1,21,-32.36902679 150.9801122,4
+Liddell Power Station,NSW1,Black Coal,LD02,Coal,-32.36902679,150.9801122,Coal,500,219,1,21,-32.36902679 150.9801122,4
+Liddell Power Station,NSW1,Black Coal,LD03,Coal,-32.36902679,150.9801122,Coal,500,220,1,21,-32.36902679 150.9801122,4
+Liddell Power Station,NSW1,Black Coal,LD04,Coal,-32.36902679,150.9801122,Coal,500,221,1,21,-32.36902679 150.9801122,4
+Lilyvale Solar Farm,QLD1,Solar,LILYSF1,Renewable,-23.070504,148.413865,Solar,118,222,1,19,-23.070504 148.413865,1
+Limondale Solar Farm,NSW1,Solar,LIMOSF21,Renewable,-34.7755018,143.5080463,Solar,38,223,1,20,-34.7755018 143.5080463,1
+Limondale Solar Farm,NSW1,Solar,LIMOSF11,Renewable,-34.7755018,143.5080464,Solar,38,224,1,20,-34.7755018 143.5080464,1
+Lincoln Gap Wind Farm,SA1,Wind,LGAPWF1,Renewable,-32.5463326,137.5527629,Wind,212.4,225,1,21,-32.5463326 137.5527629,1
+Longreach Solar Farm,QLD1,Solar,LRSF1,Renewable,-23.455048,144.227917,Solar,17,226,1,20,-23.455048 144.227917,1
+Lonsdale Power Station,SA1,Diesel,LONSDALE,Fuel,-35.109718,138.490962,Fuel,20,227,1,22,-35.109718 138.490962,1
+Loy Yang A Power Station,VIC1,Brown Coal,LYA1,Coal,-38.2506223,146.5763613,Coal,560,228,1,24,-38.2506223 146.5763613,4
+Loy Yang A Power Station,VIC1,Brown Coal,LYA2,Coal,-38.2506223,146.5763613,Coal,530,229,1,24,-38.2506223 146.5763613,4
+Loy Yang A Power Station,VIC1,Brown Coal,LYA3,Coal,-38.2506223,146.5763613,Coal,560,230,1,24,-38.2506223 146.5763613,4
+Loy Yang A Power Station,VIC1,Brown Coal,LYA4,Coal,-38.2506223,146.5763613,Coal,560,231,1,24,-38.2506223 146.5763613,4
+Loy Yang B Power Station,VIC1,Brown Coal,LOYYB1,Coal,-38.25361918,146.5855932,Coal,500,232,1,24,-38.25361918 146.5855932,2
+Loy Yang B Power Station,VIC1,Brown Coal,LOYYB2,Coal,-38.25361918,146.5855932,Coal,500,233,1,24,-38.25361918 146.5855932,2
+Lucas Heights 2 Power Station,NSW1,Landfill Methane / Landfill Gas,LUCAS2S2,Gas,-34.044088,150.972475,Gas,4.6,234,1,29,-34.044088 150.972475,2
+Lucas Heights 2 Power Station,NSW1,Landfill Methane / Landfill Gas,LUCASHGT,Gas,-34.044088,150.972475,Gas,12.65,235,1,29,-34.044088 150.972475,2
+Macarthur Wind Farm,VIC1,Wind,MACARTH1,Renewable,-38.04348284,142.1790806,Wind,420,236,1,19,-38.04348284 142.1790806,1
+Mackay Gas Turbine,QLD1,Diesel,MACKAYGT,Fuel,-21.14444071,149.1591707,Fuel,30,237,1,18,-21.14444071 149.1591707,1
+Mackintosh Power Station,TAS1,Water,MACKNTSH,Renewable,-41.701363,145.6465581,Hydro,79.9,238,1,24,-41.701363 145.6465581,1
+Manildra solar Farm,NSW1,Solar,MANSLR1,Renewable,-33.172831,148.71824,Solar,50,239,1,19,-33.172831 148.71824,1
+Maroona Wind Farm,VIC1,Wind,MAROOWF1,Renewable,-37.41875,142.82434,Wind,6.8,240,1,17,-37.41875 142.82434,1
+Maryrorough Solar Farm,QLD1,Solar,MARYRSF1,Renewable,,,Solar,,241,1,22, ,93
+Meadowbank Power Station,TAS1,Water,MEADOWBK,Renewable,-42.6108345,146.8463877,Hydro,40,242,1,24,-42.6108345 146.8463877,1
+Middlemount Solar Farm,QLD1,Solar,MIDDLSF1,Renewable,-22.820102,148.720107,Solar,,243,1,22,-22.820102 148.720107,1
+Millmerran Power Plant,QLD1,Black Coal,MPP_1,Coal,-27.96165701,151.2809098,Coal,426,244,1,22,-27.96165701 151.2809098,2
+Millmerran Power Plant,QLD1,Black Coal,MPP_2,Coal,-27.96165701,151.2809098,Coal,426,245,1,22,-27.96165701 151.2809098,2
+Mintaro Gas Turbine Station,SA1,Natural Gas,MINTARO,Gas,-33.90314861,138.7387972,Gas,90,246,1,27,-33.90314861 138.7387972,1
+Molong Solar Farm,NSW1,Solar,MOLNGSF1,Renewable,,,Solar,,247,1,17, ,93
+Moorabool Wind Farm ,VIC1,Wind,MOORAWF1,Renewable,-37.73926,144.1716207,Wind,,248,1,20,-37.73926 144.17162068,1
+Moranbah Generation Project,QLD1,Coal Seam Methane,MORANBAH,Coal,,,Coal,12.56,249,1,27, ,93
+Moranbah North Waste  PowerStation,QLD1,Waste Coal Mine Gas,MBAHNTH,Coal,-21.978481,148.004809,Coal,63.42,250,1,34,-21.978481 148.004809,1
+Moree Solar Farm,NSW1,Solar,MOREESF1,Renewable,-29.572607,149.861266,Solar,57.064,251,1,16,-29.572607 149.861266,1
+Morgan-Whyalla Pipeline Pumping Station,SA1,Solar,MWPS4PV1,Renewable,,,Solar,,252,1,39, ,93
+Morgan-Whyalla Pipeline Pumping Station,SA1,Solar,MWPS3PV1,Renewable,,,Solar,,253,1,39, ,93
+Mornington Waste Disposal Facility,VIC1,Landfill Methane / Landfill Gas,MORNW,Gas,,,Gas,1,254,1,34, ,93
+Mortlake Power Station,VIC1,Natural Gas,MORTLK11,Gas,-38.06262783,142.6663305,Gas,283,255,1,22,-38.06262783 142.6663305,2
+Mortlake Power Station,VIC1,Natural Gas,MORTLK12,Gas,-38.06262783,142.6663305,Gas,283,256,1,22,-38.06262783 142.6663305,2
+Mortons Lane Wind Farm,VIC1,Wind,MLWF1,Renewable,-37.83318644,142.4652881,Wind,19.5,257,1,22,-37.83318644 142.4652881,1
+Mount Emerald Wind Farm,QLD1,Wind,MEWF1,Renewable,-17.133248,145.380037,Wind,127.65,258,1,23,-17.133248 145.380037,1
+Mt Gellibrand Wind Farm,VIC1,Wind,MTGELWF1,Renewable,-38.257657,143.798651,Wind,43.904,259,1,23,-38.257657 143.798651,1
+Mt Mercer Wind Farm,VIC1,Wind,MERCER01,Renewable,-37.84759262,143.870183,Wind,131.2,260,1,19,-37.84759262 143.870183,1
+Mt Millar Wind Farm,SA1,Wind,MTMILLAR,Renewable,-33.6193425,136.7175682,Wind,70,261,1,19,-33.6193425 136.7175682,1
+Mt Piper Power Station,NSW1,Black Coal,MP1,Coal,-33.36071511,150.0356981,Coal,700,262,1,22,-33.36071511 150.0356981,2
+Mt Piper Power Station,NSW1,Black Coal,MP2,Coal,-33.36071511,150.0356981,Coal,700,263,1,22,-33.36071511 150.0356981,2
+Mt Stuart Power Station,QLD1,Kerosene,MSTUART1,Fuel,-19.3371562,146.851239,Fuel,144,264,1,23,-19.3371562 146.851239,3
+Mt Stuart Power Station,QLD1,Kerosene,MSTUART2,Fuel,-19.3371562,146.851239,Fuel,144,265,1,23,-19.3371562 146.851239,3
+Mt Stuart Power Station,QLD1,Kerosene,MSTUART3,Fuel,-19.3371562,146.851239,Fuel,131,266,1,23,-19.3371562 146.851239,3
+Mugga Lane Solar Park,NSW1,Solar,MLSP1,Renewable,-35.398441,149.14906,Solar,12,267,1,21,-35.398441 149.14906,1
+Murra Warra Wind Farm,VIC1,Wind,MUWAWF1,Renewable,-36.438821,142.246003,Wind,231.8,268,1,21,-36.438821 142.246003,1
+Murray Power Station,VIC1,Water,MURRAY,Renewable,-36.24599189,148.1885517,Hydro,1500,269,1,20,-36.24599189 148.1885517,1
+Musselroe Wind Farm,TAS1,Wind,MUSSELR1,Renewable,-40.77710526,148.0063147,Wind,168,270,1,19,-40.77710526 148.0063147,1
+Narromine Solar Farm,NSW1,Solar,NASF1,Renewable,,,Solar,10,271,1,20, ,93
+Nevertire Solar Farm,NSW1,Solar,NEVERSF1,Renewable,-31.8310438,147.7051778,Solar,132,272,1,20,-31.8310438 147.7051778,1
+Newport Power Station,VIC1,Natural Gas,NPS,Gas,-37.84137425,144.8954786,Gas,500,273,1,21,-37.84137425 144.8954786,1
+Nine Network Willoughby Plant,NSW1,Diesel,NINEWIL1,Fuel,,,Fuel,3.2,274,1,29, ,93
+North Brown Hill Wind Farm,SA1,Wind,NBHWF1,Renewable,-33.22811562,138.7168884,Wind,132.3,275,1,26,-33.22811562 138.7168884,1
+Numurkah Solar Farm,VIC1,Solar,NUMURSF1,Renewable,-36.159275,145.473891,Solar,74,276,1,19,-36.159275 145.473891,2
+Numurkah Solar Farm,VIC1,Solar,NUMURSF2,Renewable,-36.159275,145.473891,Solar,38,277,1,19,-36.159275 145.473891,2
+Nyngan Solar Plant,NSW1,Solar,NYNGAN1,Renewable,-31.56319134,147.0741951,Solar,102.141,278,1,18,-31.56319134 147.0741951,1
+Oakey 1 Solar Farm,QLD1,Solar,OAKEY1SF,Renewable,-27.402454,151.6425757,Solar,30,279,1,18,-27.402454 151.6425757,1
+Oakey 2 Solar Farm,QLD1,Solar,OAKEY2SF,Renewable,-27.402454,151.6425759,Solar,65,280,1,18,-27.402454 151.6425759,1
+Oakey Power Station,QLD1,Natural Gas,OAKEY1,Gas,-27.41820726,151.6788872,Gas,141,281,1,19,-27.41820726 151.6788872,2
+Oakey Power Station,QLD1,Natural Gas,OAKEY2,Gas,-27.41820726,151.6788872,Gas,141,282,1,19,-27.41820726 151.6788872,2
+Oaklands Hill Wind Farm,VIC1,Wind,OAKLAND1,Renewable,-37.67948099,142.5529949,Wind,67,283,1,23,-37.67948099 142.5529949,1
+Oaky Creek 2,QLD1,Waste Coal Mine Gas,OAKY2,Coal,-23.048717,148.484461,Coal,15,284,1,12,-23.048717 148.484461,1
+Oaky Creek Power Station,QLD1,Coal Seam Methane,OAKYCREK,Coal,-23.048717,148.484462,Coal,20,285,1,24,-23.048717 148.484462,1
+Osborne Power Station,SA1,Natural Gas,OSB-AG,Gas,-34.79769982,138.5080986,Gas,180,286,1,21,-34.79769982 138.5080986,1
+Paloona Power Station,TAS1,Water,PALOONA,Renewable,-41.28267954,146.2485805,Hydro,28,287,1,21,-41.28267954 146.2485805,1
+Parkes Solar Farm,NSW1,Solar,PARSF1,Renewable,-33.113056,148.076372,Solar,55,288,1,17,-33.113056 148.076372,1
+Pelican Point Power Station,SA1,Natural Gas,PPCCGT,Gas,-34.76436536,138.5053993,Gas,478,289,1,27,-34.76436536 138.5053993,1
+Pindari Hydro Power Station,NSW1,Water,PINDARI,Renewable,,,Hydro,6.7,290,1,27, ,93
+Pioneer Sugar Mill,QLD1,Bagasse,PIONEER,Renewable,-19.557546,147.330825,Other,,291,1,18,-19.557546 147.330825,1
+Poatina Power Station,TAS1,Water,POAT110,Renewable,-41.80507321,146.9243655,Hydro,100,292,1,21,-41.80507321 146.9243655,2
+Poatina Power Station,TAS1,Water,POAT220,Renewable,-41.80507321,146.9243655,Hydro,200,293,1,21,-41.80507321 146.9243655,2
+Port Lincoln Gas Turbine,SA1,Diesel,POR01,Fuel,-34.70061601,135.8045305,Fuel,50,294,1,24,-34.70061601 135.8045305,2
+Port Lincoln Gas Turbine,SA1,Diesel,POR03,Fuel,-34.70061601,135.8045305,Fuel,23.5,295,1,24,-34.70061601 135.8045305,2
+Portland Wind Farm,VIC1,Wind,PORTWF,Renewable,-38.36141715,141.3845597,Wind,,296,1,18,-38.36141715 141.3845597,1
+Pt Stanvac Power Station,SA1,Diesel,PTSTAN1,Fuel,-35.110345,138.490872,Fuel,57.6,297,1,24,-35.110345 138.490872,1
+Quarantine Power Station,SA1,Natural Gas,QPS1,Gas,-34.77907369,138.5224545,Gas,29,298,1,24,-34.77907369 138.5224545,5
+Quarantine Power Station,SA1,Natural Gas,QPS2,Gas,-34.77907369,138.5224545,Gas,24,299,1,24,-34.77907369 138.5224545,5
+Quarantine Power Station,SA1,Natural Gas,QPS3,Gas,-34.77907369,138.5224545,Gas,24,300,1,24,-34.77907369 138.5224545,5
+Quarantine Power Station,SA1,Natural Gas,QPS4,Gas,-34.77907369,138.5224545,Gas,24,301,1,24,-34.77907369 138.5224545,5
+Quarantine Power Station,SA1,Natural Gas,QPS5,Gas,-34.77907369,138.5224545,Gas,128,302,1,24,-34.77907369 138.5224545,5
+Reece Power Station,TAS1,Water,REECE1,Renewable,-41.72313134,145.1364684,Hydro,115.6,303,1,19,-41.72313134 145.1364684,2
+Reece Power Station,TAS1,Water,REECE2,Renewable,-41.72313134,145.1364684,Hydro,115.6,304,1,19,-41.72313134 145.1364684,2
+Remount Power Station,TAS1,Landfill Methane / Landfill Gas,REMOUNT,Gas,-41.398447,147.1495,Gas,2,305,1,21,-41.398447 147.1495,1
+Repulse Power Station,TAS1,Water,REPULSE,Renewable,-42.50798689,146.6471698,Hydro,28,306,1,21,-42.50798689 146.6471698,1
+Rochedale Renewable Energy Facility,QLD1,Landfill Methane / Landfill Gas,ROCHEDAL,Gas,,,Gas,,307,1,35, ,93
+Rocky Point Cogeneration Plant,QLD1,Bagasse,RPCG,Renewable,-27.733564,153.326464,Other,30,308,1,30,-27.733564 153.326464,1
+Roghan Road LFG Power Plant,QLD1,Bagasse,EDLRGNRD,Renewable,,,Other,2,309,1,27, ,93
+Roma Gas Turbine Station,QLD1,Natural Gas,ROMA_7,Gas,-26.57678804,148.839485,Gas,40,310,1,24,-26.57678804 148.839485,2
+Roma Gas Turbine Station,QLD1,Natural Gas,ROMA_8,Gas,-26.57678804,148.839485,Gas,40,311,1,24,-26.57678804 148.839485,2
+Rooftop NSW,NSW1,Rooftop,NSW1,Renewable,-30.874552,148.885201,Rooftop,,312,1,11,-30.874552 148.885201,1
+Rooftop QLD,QLD1,Rooftop,QLD1,Renewable,-21.406454,141.433724,Rooftop,,313,1,11,-21.406454 141.433724,1
+Rooftop SA,SA1,Rooftop,SA1,Renewable,-34.307737,138.623971,Rooftop,,314,1,10,-34.307737 138.623971,1
+Rooftop TAS,TAS1,Rooftop,TAS1,Renewable,-42.056972,146.630257,Rooftop,,315,1,11,-42.056972 146.630257,1
+Rooftop VIC,VIC1,Rooftop,VIC1,Renewable,-36.934006,144.91639,Rooftop,,316,1,11,-36.934006 144.91639,1
+Ross River Solar Farm,QLD1,Solar,RRSF1,Renewable,-19.425305,146.715686,Solar,128,317,1,21,-19.425305 146.715686,1
+Rowallan Power Station,TAS1,Water,ROWALLAN,Renewable,-41.72956983,146.2180869,Hydro,10.5,318,1,22,-41.72956983 146.2180869,1
+Royalla Solar Farm,NSW1,Solar,ROYALLA1,Renewable,-35.48605246,149.1419657,Solar,20,319,1,18,-35.48605246 149.1419657,1
+Rubicon Mountain Streams Station,VIC1,Water,RUBICON,Renewable,,,Hydro,2.7,320,1,32, ,93
+Rugby Run Solar Farm,QLD1,Solar,RUGBYR1,Renewable,-21.940469,147.880877,Solar,83,321,1,20,-21.940469 147.880877,1
+SA Water Bolivar Waste WaterTreatment Plant,SA1,Sewerage / Waste Water,BOLIVAR1,Renewable,,,Other,9.9,322,1,43, ,93
+Salt Creek Wind Farm,VIC1,Wind,SALTCRK1,Renewable,-37.918698,142.796027,Wind,54,323,1,20,-37.918698 142.796027,1
+Sapphire Wind Farm,NSW1,Wind,SAPHWF1,Renewable,-29.710273,151.44558,Wind,270,324,1,18,-29.710273 151.44558,1
+Shepparton Wastewater Treatment Facility,VIC1,Sewerage / Waste Water,SHEP1,Renewable,-36.322223,145.379291,Other,1.1,325,1,40,-36.322223 145.379291,1
+Shoalhaven Power Station,NSW1,Water,SHGEN,Renewable,-34.73308464,150.4667001,Hydro,240,326,1,24,-34.73308464 150.4667001,2
+Shoalhaven Power Station,NSW1,Water,SHPUMP,Renewable,-34.73308464,150.4667001,Hydro,240,327,1,24,-34.73308464 150.4667001,2
+Silverton Wind Farm,NSW1,Wind,STWF1,Renewable,-31.86095,141.296349,Wind,198.94,328,1,19,-31.86095 141.296349,1
+Smithfield Energy Facility,NSW1,Natural Gas,SITHE01,Gas,-33.85002263,150.9500508,Gas,185,329,1,26,-33.85002263 150.9500508,1
+Snowtown South Wind Farm,SA1,Wind,SNOWSTH1,Renewable,-33.86262421,138.1303665,Wind,126,330,1,24,-33.86262421 138.1303665,1
+Snowtown Wind Farm Stage 2 North,SA1,Wind,SNOWNTH1,Renewable,-33.75647865,138.1430432,Wind,144,331,1,32,-33.75647865 138.1430432,1
+Snowtown Wind Farm Units 1&47,SA1,Wind,SNOWTWN1,Renewable,-33.69159845,138.1660222,Wind,99,332,1,29,-33.69159845 138.1660222,1
+Snuggery Power Station,SA1,Diesel,SNUG1,Fuel,-37.66499562,140.4146856,Fuel,63,333,1,22,-37.66499562 140.4146856,1
+Somerton Power Station,VIC1,Natural Gas,AGLSOM,Gas,-37.63094866,144.9530983,Gas,170,334,1,22,-37.63094866 144.9530983,1
+South East Water - Halllam Hydro Plant,VIC1,Water,HLMSEW01,Renewable,,,Hydro,0.25,335,1,38, ,93
+South Keswick Solar Farm,NSW1,Solar,SKSF1,Renewable,-32.27286,148.649836,Solar,15,336,1,24,-32.27286 148.649836,1
+Southbank InstituteOfTechnologyUnit1Plant,QLD1,Diesel,STHBKTEC,Fuel,,,Fuel,,337,1,41, ,93
+Springvale Landfill Gas Power Station,VIC1,Landfill Methane / Landfill Gas,SVALE1,Gas,,,Gas,4.2,338,1,37, ,93
+Stanwell Power Station,QLD1,Black Coal,STAN-1,Coal,-23.50750115,150.3178837,Coal,365,339,1,22,-23.50750115 150.3178837,4
+Stanwell Power Station,QLD1,Black Coal,STAN-2,Coal,-23.50750115,150.3178837,Coal,365,340,1,22,-23.50750115 150.3178837,4
+Stanwell Power Station,QLD1,Black Coal,STAN-3,Coal,-23.50750115,150.3178837,Coal,365,341,1,22,-23.50750115 150.3178837,4
+Stanwell Power Station,QLD1,Black Coal,STAN-4,Coal,-23.50750115,150.3178837,Coal,365,342,1,22,-23.50750115 150.3178837,4
+Stapylton Renewable Energy Facility,QLD1,Landfill Methane / Landfill Gas,STAPYLTON1,Gas,,,Gas,2.14,343,1,35, ,93
+Starfish Hill Wind Farm,SA1,Wind,STARHLWF,Renewable,-35.57898296,138.1396531,Wind,34.5,344,1,23,-35.57898296 138.1396531,1
+Stockyard Hill Wind Farm,VIC1,Wind,STOCKYD1,Renewable,,,Wind,,345,1,24, ,93
+Sun Metals Solar Farm,QLD1,Solar,SMCSF1,Renewable,-19.437318,146.696015,Solar,118,346,1,21,-19.437318 146.696015,1
+Sunraysia Solar Farm,NSW1,Solar,SUNRSF1,Renewable,-34.821464,143.508795,Solar,,347,1,20,-34.821464 143.508795,1
+Susan River Solar Farm,QLD1,Solar,SRSF1,Renewable,-25.420275,152.742028,Solar,85.26,348,1,22,-25.420275 152.742028,1
+Swanbank BPowerStation&E GasTurbine,QLD1,Natural Gas,SWAN_E,Gas,-27.65528591,152.8186436,Gas,385,349,1,35,-27.65528591 152.8186436,1
+Tahmoor Waste Coal Mine Gas PS,NSW1,Waste Coal Mine Gas,TAHMOOR1,Coal,,,Coal,7.042,350,1,30, ,93
+Tailem Bend Solar Project 1,SA1,Solar,TBSF1,Renewable,-35.28,139.49,Solar,108,351,1,27,-35.28 139.49,1
+Tallawarra Power Station,NSW1,Natural Gas,TALWA1,Gas,-34.52308945,150.808566,Gas,440,352,1,24,-34.52308945 150.808566,1
+Tamar Valley Combined Cycle PS,TAS1,Natural Gas,TVCC201,Gas,-41.13926795,146.9061848,Gas,208.6,353,1,30,-41.13926795 146.9061848,1
+Taralga Wind Farm,NSW1,Wind,TARALGA1,Renewable,-34.42538727,149.8596032,Wind,106.8,354,1,17,-34.42538727 149.8596032,1
+Tarong North Power Station,QLD1,Black Coal,TNPS1,Coal,-26.77439673,151.9178375,Coal,443,355,1,26,-26.77439673 151.9178375,1
+Tarong Power Station,QLD1,Black Coal,TARONG#1,Coal,-26.77439673,151.9178376,Coal,350,356,1,20,-26.77439673 151.9178376,4
+Tarong Power Station,QLD1,Black Coal,TARONG#2,Coal,-26.77439673,151.9178376,Coal,350,357,1,20,-26.77439673 151.9178376,4
+Tarong Power Station,QLD1,Black Coal,TARONG#3,Coal,-26.77439673,151.9178376,Coal,350,358,1,20,-26.77439673 151.9178376,4
+Tarong Power Station,QLD1,Black Coal,TARONG#4,Coal,-26.77439673,151.9178376,Coal,350,359,1,20,-26.77439673 151.9178376,4
+Tarraleah Power Station,TAS1,Water,TARRALEA,Renewable,-42.30173561,146.456661,Hydro,90,360,1,23,-42.30173561 146.456661,1
+Tataria Bordertown Plant,SA1,Diesel,TATIARA1,Fuel,-36.326977,140.737035,Fuel,0.5,361,1,24,-36.326977 140.737035,1
+Tatura Biomass Generator,VIC1,Sewerage / Waste Water,TATURA01,Renewable,,,Other,1.1,362,1,24, ,93
+Temporary Generation North,SA1,Diesel,SATGN1,Fuel,-34.719707,138.668425,Fuel,154,363,1,26,-34.719707 138.668425,1
+Temporary Generation South,SA1,Diesel,SATGS1,Fuel,-35.096799,138.483997,Fuel,123.2,364,1,26,-35.096799 138.483997,1
+Teralba Power Station,NSW1,Waste Coal Mine Gas,TERALBA,Coal,-32.945557,151.612042,Coal,3,365,1,21,-32.945557 151.612042,1
+The Bluff Wind Farm,SA1,Wind,BLUFF1,Renewable,-33.3677405,138.7937899,Wind,52.5,366,1,19,-33.3677405 138.7937899,1
+The Drop Power Station,NSW1,Water,THEDROP1,Renewable,-35.973527,145.999274,Hydro,2.5,367,1,22,-35.973527 145.999274,1
+Timboon West Wind Farm,VIC1,Wind,TIMWEST,Renewable,,,Wind,7.2,368,1,22, ,93
+Toora Wind Farm,VIC1,Wind,TOORAWF,Renewable,-38.65352796,146.3397739,Wind,21,369,1,15,-38.65352796 146.3397739,1
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRA1,Gas,-34.80455914,138.5222287,Gas,120,370,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRA2,Gas,-34.80455914,138.5222287,Gas,120,371,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRA3,Gas,-34.80455914,138.5222287,Gas,120,372,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRA4,Gas,-34.80455914,138.5222287,Gas,120,373,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRB1,Gas,-34.80455914,138.5222287,Gas,200,374,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRB2,Gas,-34.80455914,138.5222287,Gas,200,375,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRB3,Gas,-34.80455914,138.5222287,Gas,200,376,1,28,-34.80455914 138.5222287,8
+Torrens Island Power Station,SA1,Natural Gas / Fuel Oil,TORRB4,Gas,-34.80455914,138.5222287,Gas,200,377,1,28,-34.80455914 138.5222287,8
+Tower Power Plant,NSW1,Waste Coal Mine Gas,TOWER,Coal,-34.219461,150.718012,Coal,41.2,378,1,17,-34.219461 150.718012,1
+Townsville Gas Turbine,QLD1,Natural Gas,YABULU,Gas,-19.20037385,146.6182647,Gas,160,379,1,22,-19.20037385 146.6182647,2
+Townsville Gas Turbine,QLD1,Natural Gas,YABULU2,Gas,-19.20037385,146.6182647,Gas,82,380,1,22,-19.20037385 146.6182647,2
+Traralgon Network Support Station,VIC1,Natural Gas,TGNSS1,Gas,-37.833513,144.965955,Gas,10,381,1,33,-37.833513 144.965955,1
+Trevallyn Power Station,TAS1,Water,TREVALLN,Renewable,-41.42230161,147.1120252,Hydro,93,382,1,23,-41.42230161 147.1120252,1
+Tribute Power Station,TAS1,Water,TRIBUTE,Renewable,-41.81146829,145.6532519,Hydro,82.8,383,1,21,-41.81146829 145.6532519,1
+Tumut 3 Power Station,NSW1,Water,TUMUT3,Renewable,-35.61081711,148.2926435,Hydro,1500,384,1,21,-35.61081711 148.2926435,1
+Tumut 3 Pumps,NSW1,Storage/Pumps,SNOWYP,Renewable,,,Storage,600,385,1,13, ,93
+Tumut Power Station,NSW1,Water,UPPTUMUT,Renewable,-35.95349207,148.3696934,Hydro,616,386,1,19,-35.95349207 148.3696934,1
+Tungatinah Power Station,TAS1,Water,TUNGATIN,Renewable,-42.29639637,146.4558814,Hydro,125,387,1,24,-42.29639637 146.4558814,1
+Uranquinty Power Station,NSW1,Natural Gas,URANQ11,Gas,-35.18022565,147.2156599,Gas,166,388,1,24,-35.18022565 147.2156599,4
+Uranquinty Power Station,NSW1,Natural Gas,URANQ12,Gas,-35.18022565,147.2156599,Gas,166,389,1,24,-35.18022565 147.2156599,4
+Uranquinty Power Station,NSW1,Natural Gas,URANQ13,Gas,-35.18022565,147.2156599,Gas,166,390,1,24,-35.18022565 147.2156599,4
+Uranquinty Power Station,NSW1,Natural Gas,URANQ14,Gas,-35.18022565,147.2156599,Gas,166,391,1,24,-35.18022565 147.2156599,4
+Valdora Solar Farm,QLD1,Solar,VALDORA1,Renewable,,,Solar,15,392,1,18, ,93
+"Vales Point ""B"" Power Station",NSW1,Black Coal,VP5,Coal,-33.164639,151.5441155,Coal,660,393,1,29,-33.164639 151.5441155,2
+"Vales Point ""B"" Power Station",NSW1,Black Coal,VP6,Coal,-33.164639,151.5441155,Coal,660,394,1,29,-33.164639 151.5441155,2
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS1,Gas,-38.25260085,146.5889059,Gas,50,395,1,29,-38.25260085 146.5889059,6
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS2,Gas,-38.25260085,146.5889059,Gas,50,396,1,29,-38.25260085 146.5889059,6
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS3,Gas,-38.25260085,146.5889059,Gas,50,397,1,29,-38.25260085 146.5889059,6
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS4,Gas,-38.25260085,146.5889059,Gas,50,398,1,29,-38.25260085 146.5889059,6
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS5,Gas,-38.25260085,146.5889059,Gas,50,399,1,29,-38.25260085 146.5889059,6
+Valley Power Peaking Facility,VIC1,Natural Gas,VPGS6,Gas,-38.25260085,146.5889059,Gas,50,400,1,29,-38.25260085 146.5889059,6
+Veolia Ti Tree Bio Reactor,QLD1,Landfill Methane / Landfill Gas,TITREE,Gas,-27.695551,152.650313,Gas,2,401,1,26,-27.695551 152.650313,1
+Warwick Solar Farm,QLD1,Solar,WARWSF1,Renewable,,,Solar,,402,1,18, ,93
+Warwick Solar Farm,QLD1,Solar,WARWSF2,Renewable,,,Solar,,403,1,18, ,93
+Waterloo Wind Farm,SA1,Wind,WATERLWF,Renewable,-33.99109527,138.9157228,Wind,130.8,404,1,18,-33.99109527 138.9157228,1
+Wattle Point Wind Farm,SA1,Wind,WPWF,Renewable,-35.11541044,137.7186724,Wind,90.75,405,1,22,-35.11541044 137.7186724,1
+Waubra Wind Farm,VIC1,Wind,WAUBRAWF,Renewable,-37.35797906,143.5926002,Wind,192,406,1,16,-37.35797906 143.5926002,1
+Wellington Solar Farm,NSW1,Solar,WELLSF1,Renewable,,,Solar,,407,1,21, ,93
+Wemen Solar Farm,VIC1,Solar,WEMENSF1,Renewable,-34.80259,142.543348,Solar,97.5,408,1,16,-34.80259 142.543348,1
+West Illawarra Leagues Club Plant,NSW1,Diesel,WESTILL1,Fuel,-34.451645,150.843037,Fuel,1,409,1,33,-34.451645 150.843037,1
+West Kiewa Power Station,VIC1,Water,WKIEWA1,Renewable,-36.75967369,147.1860821,Hydro,31,410,1,24,-36.75967369 147.1860821,2
+West Kiewa Power Station,VIC1,Water,WKIEWA2,Renewable,-36.75967369,147.1860821,Hydro,31,411,1,24,-36.75967369 147.1860821,2
+West Nowra Landfill Gas PowerStation,NSW1,Landfill Methane / Landfill Gas,AGLNOW1,Gas,,,Gas,1,412,1,36, ,93
+Western SuburbsLeagueClub(Campbelltown)Plant,NSW1,Diesel,WESTCBT1,Fuel,-34.051073,150.832757,Fuel,1,413,1,44,-34.051073 150.832757,1
+White Rock Solar Farm,NSW1,Solar,WRSF1,Renewable,-29.7632925,151.5502083,Solar,22,414,1,21,-29.7632925 151.5502083,1
+White Rock Wind Farm,NSW1,Wind,WRWF1,Renewable,-29.8291832,151.5453929,Wind,175,415,1,20,-29.8291832 151.5453929,1
+Whitsunday Solar Farm,QLD1,Solar,WHITSF1,Renewable,-20.537259,147.80475,Solar,57.5,416,1,21,-20.537259 147.80475,1
+Whitwood Road Renewable Energy Facility,QLD1,Landfill Methane / Landfill Gas,WHIT1,Gas,,,Gas,1,417,1,39, ,93
+Wilga Park B,NSW1,Coal Seam Methane,WILGB01,Coal,-30.314444,149.652768,Coal,6,418,1,12,-30.314444 149.652768,1
+Wilga Park Power Station,NSW1,Coal Seam Methane,WILGAPK,Coal,-30.314444,149.652767,Coal,10,419,1,24,-30.314444 149.652767,1
+William Hovell Power Station,VIC1,Water,WILLHOV1,Renewable,,,Hydro,1.5,420,1,28, ,93
+Willogoleche Wind Farm,SA1,Wind,WGWF1,Renewable,-33.393569,138.84821,Wind,91.92,421,1,22,-33.393569 138.84821,1
+Windy Hill Wind Farm,QLD1,Wind,WHILL1,Renewable,-17.590399,145.52968,Wind,12,422,1,20,-17.590399 145.52968,1
+Wingfield 1 Landfill Gas PS,SA1,Landfill Methane / Landfill Gas,WINGF1_1,Gas,,,Gas,4.12,423,1,27, ,93
+Wingfield 2 Landfill Gas PS,SA1,Landfill Methane / Landfill Gas,WINGF2_1,Gas,,,Gas,4.12,424,1,27, ,93
+Winton Solar Farm,VIC1,Solar,WINTSF1,Renewable,,,Solar,,425,1,17, ,93
+Wivenhoe Power Station,QLD1,Water,W/HOE#1,Renewable,-27.37222377,152.6323617,Hydro,285,426,1,22,-27.37222377 152.6323617,4
+Wivenhoe Power Station,QLD1,Water,W/HOE#2,Renewable,-27.37222377,152.6323617,Hydro,285,427,1,22,-27.37222377 152.6323617,4
+Wivenhoe Power Station,QLD1,Storage/Pumps,PUMP1,Renewable,-27.37222377,152.6323617,Storage,240,428,1,22,-27.37222377 152.6323617,4
+Wivenhoe Power Station,QLD1,Storage/Pumps,PUMP2,Renewable,-27.37222377,152.6323617,Storage,240,429,1,22,-27.37222377 152.6323617,4
+Wivenhoe Small Hydro,QLD1,Water,WIVENSH,Renewable,,,Hydro,4.7,430,1,20, ,93
+Wollert Renewable Energy Facility,VIC1,Landfill Methane / Landfill Gas,WOLLERT1,Gas,,,Gas,7,431,1,33, ,93
+Wonthaggi Wind Farm,VIC1,Wind,WONWP,Renewable,-38.60513,145.546292,Wind,12,432,1,19,-38.60513 145.546292,1
+Woodlawn Bioreactor EnergyGenerationStation,NSW1,Landfill Methane / Landfill Gas,WDLNGN01,Gas,,,Gas,7,433,1,43, ,93
+Woodlawn Wind Farm,NSW1,Wind,WOODLWN1,Renewable,-35.0816746,149.5705107,Wind,48.3,434,1,18,-35.0816746 149.5705107,1
+Woolnorth Studland Bay Wind Farm,TAS1,Wind,WOOLNTH1,Renewable,-40.73637475,144.6948205,Wind,140,435,1,32,-40.73637475 144.6948205,1
+Woy Woy Landfill Site,NSW1,Landfill Methane / Landfill Gas,WOYWOY1,Gas,,,Gas,1.064,436,1,21, ,93
+Wyangala A Power Station,NSW1,Water,WYANGALA,Renewable,-33.980371,148.947376,Hydro,20,437,1,24,-33.980371 148.947376,1
+Wyangala B Power Station,NSW1,Water,WYANGALB,Renewable,-33.980371,148.947377,Hydro,4,438,1,24,-33.980371 148.947377,1
+Wyndham Waste Disposal Facility,VIC1,Landfill Methane / Landfill Gas,WYNDW,Gas,,,Gas,1,439,1,31, ,93
+Yallourn 'W' Power Station,VIC1,Brown Coal,YWPS1,Coal,-38.17759622,146.3475084,Coal,360,440,1,26,-38.17759622 146.3475084,4
+Yallourn 'W' Power Station,VIC1,Brown Coal,YWPS2,Coal,-38.17759622,146.3475084,Coal,360,441,1,26,-38.17759622 146.3475084,4
+Yallourn 'W' Power Station,VIC1,Brown Coal,YWPS3,Coal,-38.17759622,146.3475084,Coal,380,442,1,26,-38.17759622 146.3475084,4
+Yallourn 'W' Power Station,VIC1,Brown Coal,YWPS4,Coal,-38.17759622,146.3475084,Coal,380,443,1,26,-38.17759622 146.3475084,4
+Yaloak South Wind Farm,VIC1,Wind,YSWF1,Renewable,-37.716474,144.241947,Wind,28.7,444,1,22,-37.716474 144.241947,1
+Yambuk Wind Farm,VIC1,Wind,YAMBUKWF,Renewable,-38.30527811,142.0184392,Wind,30,445,1,16,-38.30527811 142.0184392,1
+Yarranlea Solar Farm,QLD1,Solar,YARANSF1,Renewable,-27.713062,151.52509,Solar,121,446,1,20,-27.713062 151.52509,1
+Yarrawonga Hydro Power Station,VIC1,Water,YWNGAHYD,Renewable,,,Hydro,9,447,1,30, ,93
+Yarwun Power Station,QLD1,Natural Gas,YARWUN_1,Gas,-23.83020031,151.1496916,Gas,154,448,1,20,-23.83020031 151.1496916,1
+Yatpool Solar Farm,VIC1,Solar,YATSF1,Renewable,,,Solar,,449,1,18, ,93
+Yawong Wind Farm,VIC1,Wind,YAWWF1,Renewable,,,Wind,7.2,450,1,16, ,93
+Yendon Wind Farm,VIC1,Wind,YENDWF1,Renewable,-37.630952,144.022463,Wind,144.4,451,1,16,-37.630952 144.022463,1
+Suntop Solar Farm,NSW1,Solar,SUNTPSF1,Renewable,,,Solar,175,452,1,17, ,93
+Wagga North Solar Farm,NSW1,Solar,WAGGNSF1,Renewable,,,Solar,55,453,1,22, ,93
+Morgan-Whyalla Pipeline Pumping Station,SA1,Solar,MWPS2PV1,Renewable,,,Solar,,454,1,39, ,93
+Victorian Big Battery,VIC1,Storage/Pumps,VBBG1,Renewable,,,Storage,360,455,1,21, ,93
+Victorian Big Battery,VIC1,Storage/Pumps,VBBL1,Renewable,,,Storage,360,456,1,21, ,93
+Wandoan Battery Energy Storage,QLD1,Storage/Pumps,WANDBG1,Renewable,,,Storage,123,457,1,30, ,93
+Adelaide Desalination Plant,SA1,Solar,ADPPV1,Renewable,,,Solar,,458,1,27, ,93
+Morgan-Whyalla Pipeline Pumping Station,SA1,Solar,MWPS1PV1,Renewable,,,Solar,,459,1,39, ,93
